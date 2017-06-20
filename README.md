@@ -25,7 +25,7 @@ Sophisticated attackers can inflict damage without triggering your security mech
 
 ### CocoaPods
 
-Just add `pod 'PerimeterXFramework'` into your [Podfile](https://guides.cocoapods.org/syntax/podfile.html).
+Just add `pod 'PerimeterX'` into your [Podfile](https://guides.cocoapods.org/syntax/podfile.html).
 
 Then run `pod install`.
 
