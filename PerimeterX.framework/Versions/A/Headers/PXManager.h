@@ -11,6 +11,8 @@
 #import "PXBlockResponse.h"
 #import "PXWebViewController.h"
 
+@class PXCookie;
+
 @protocol PXManagerDelegate <NSObject>
 
 -(void) newHeaders:(NSDictionary *)httpHeaders;
@@ -21,10 +23,16 @@
 @interface PXManager : NSObject <PXWebViewDelegate>
 
 extern NSString * const PX_SDK_VERSION;
+extern NSString * const PX_JS_CLIENT_TAG;
 
 +(PXManager *) sharedInstance;
 
 @property (nonatomic, weak) id<PXManagerDelegate> delegate;
+@property (readonly, nonatomic, strong) NSString *appId;
+@property (readonly, nonatomic, strong) NSString *collectorUrl;
+@property (readonly, nonatomic, assign) BOOL forceCaptcha;
+@property (readonly, nonatomic, assign) BOOL forceBlock;
+
 
 -(void) managerWithCustomBlockCode:(NSUInteger)blockCode;
 
@@ -44,7 +52,7 @@ extern NSString * const PX_SDK_VERSION;
 
 -(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController;
 
--(void) setTimerForTokenRenewIfNeeded;
+-(void) setTimerForTokenRenewIfNeeded:(PXCookie *)cookie;
 
 -(void) wakeup;
 
