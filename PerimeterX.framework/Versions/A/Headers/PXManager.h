@@ -17,13 +17,15 @@
 
 -(void) newHeaders:(NSDictionary *)httpHeaders;
 
+-(void) managerReady:(NSDictionary *)httpHeaders;
+
 @end
 
 
-@interface PXManager : NSObject <PXWebViewDelegate>
+@interface PXManager : NSObject
 
 extern NSString * const PX_SDK_VERSION;
-extern NSString * const PX_JS_CLIENT_TAG;
+extern NSString *const PX_AUTH_HEADER_KEY;
 
 +(PXManager *) sharedInstance;
 
@@ -33,8 +35,6 @@ extern NSString * const PX_JS_CLIENT_TAG;
 @property (readonly, nonatomic, assign) BOOL forceCaptcha;
 @property (readonly, nonatomic, assign) BOOL forceBlock;
 
-
--(void) managerWithCustomBlockCode:(NSUInteger)blockCode;
 
 -(void) startWith:(NSString *)appId;
 
@@ -51,8 +51,6 @@ extern NSString * const PX_JS_CLIENT_TAG;
 -(PXBlockResponse *) checkError:(NSDictionary *)responseJson;
 
 -(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController;
-
--(void) setTimerForTokenRenewIfNeeded:(PXCookie *)cookie;
 
 -(void) wakeup;
 
