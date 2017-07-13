@@ -29,6 +29,17 @@ Just add `pod 'PerimeterX'` into your [Podfile](https://guides.cocoapods.org/syn
 
 Then run `pod install`.
 
+### Carthage
+
+Add the following to the app Cartfile
+```
+binary "https://raw.githubusercontent.com/PerimeterX/px-iOS-Framework/master/PerimeterX.json"
+```
+
+Then run `carthage update --platform iOS`
+
+---
+
 Finally add `import PerimeterX` in your Swift implementation.
 
 Or `#import <PerimeterX/PerimeterX.h>` if you're using Objective-C.<br>
