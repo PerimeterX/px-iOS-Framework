@@ -34,11 +34,11 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 @property (readonly, nonatomic, strong) NSString *collectorUrl;
 @property (readonly, nonatomic, assign) BOOL forceCaptcha;
 @property (readonly, nonatomic, assign) BOOL forceBlock;
-
+@property (readonly, nonatomic, strong) NSArray *customParams;
 
 -(void) startWith:(NSString *)appId;
 
--(void) setCustomParameters:(NSDictionary *)customParams;
+-(void) setCustomParameters:(NSArray *)customParams;
 
 -(NSDictionary *) httpHeaders;
 
