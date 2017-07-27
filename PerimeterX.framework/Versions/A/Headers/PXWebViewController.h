@@ -13,6 +13,8 @@
 
 -(void) captchaSuccess;
 
+-(void) captchaFailure;
+
 @end
 
 @interface PXWebViewController : UIViewController <UIWebViewDelegate>

@@ -24,6 +24,8 @@
 
 @interface PXManager : NSObject
 
+typedef void (^CaptchaBlock)(void);
+
 extern NSString * const PX_SDK_VERSION;
 extern NSString *const PX_AUTH_HEADER_KEY;
 
@@ -50,7 +52,7 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 
 -(PXBlockResponse *) checkError:(NSDictionary *)responseJson;
 
--(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController;
+-(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController captchaSuccess:(CaptchaBlock)successBlock captchaFailure:(CaptchaBlock)failureBlock;
 
 -(void) wakeup;
 
