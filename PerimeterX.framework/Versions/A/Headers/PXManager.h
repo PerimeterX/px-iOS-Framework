@@ -37,6 +37,7 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 @property (readonly, nonatomic, assign) BOOL forceCaptcha;
 @property (readonly, nonatomic, assign) BOOL forceBlock;
 @property (readonly, nonatomic, strong) NSArray *customParams;
+@property (nonatomic, assign) NSTimeInterval timeoutInterval;
 
 -(void) startWith:(NSString *)appId;
 
