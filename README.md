@@ -43,7 +43,3 @@ Then run `carthage update --platform iOS`
 Finally add `import PerimeterX` in your Swift implementation.
 
 Or `#import <PerimeterX/PerimeterX.h>` if you're using Objective-C.<br>
-
-## Changelog
-
-You can find the release changelog [here]().
