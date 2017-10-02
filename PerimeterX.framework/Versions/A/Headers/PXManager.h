@@ -44,6 +44,7 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 -(void) setCustomParameters:(NSArray *)customParams;
 
 -(NSDictionary *) httpHeaders;
+-(NSString *) getVid;
 
 -(void) setHeadersForRequest:(NSMutableURLRequest *)request;
 -(void) setHeadersForConfiguration:(NSURLSessionConfiguration *)configuration;
