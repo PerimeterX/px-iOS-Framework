@@ -36,12 +36,13 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 @property (readonly, nonatomic, strong) NSString *collectorUrl;
 @property (readonly, nonatomic, assign) BOOL forceCaptcha;
 @property (readonly, nonatomic, assign) BOOL forceBlock;
-@property (readonly, nonatomic, strong) NSArray *customParams;
+@property (readonly, nonatomic, strong) NSDictionary *customParams;
 @property (nonatomic, assign) NSTimeInterval timeoutInterval;
 
 -(void) startWith:(NSString *)appId;
 
--(void) setCustomParameters:(NSArray *)customParams;
+-(void) setCustomParameters:(NSArray *)customParams __deprecated __deprecated_msg("Please use setCustomParametersDictionary");
+-(void) setCustomParametersDictionary:(NSDictionary *)customParamsDictionary;
 
 -(NSDictionary *) httpHeaders;
 -(NSString *) getVid;
