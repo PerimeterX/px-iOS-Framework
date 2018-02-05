@@ -55,7 +55,9 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 
 -(PXBlockResponse *) checkError:(NSDictionary *)responseJson;
 
--(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController captchaSuccess:(PXCompletionBlock)successBlock captchaFailure:(PXCompletionBlock)failureBlock;
+-(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController captchaSuccess:(PXCompletionBlock)successBlock captchaFailure:(PXCompletionBlock)failureBlock __deprecated __deprecated_msg("Please remove the captchaFailure callback");
+
+-(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController captchaSuccess:(PXCompletionBlock)successBlock;
 
 -(void) wakeup:(PXCompletionBlock) completionBlock;
 
