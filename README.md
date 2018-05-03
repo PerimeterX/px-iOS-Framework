@@ -17,7 +17,7 @@ Sophisticated attackers can inflict damage without triggering your security mech
 | Operating System   	| iOS 8 or higher                                      	|
 | Languages          	| Objective-C, Swift                                   	|
 | Devices            	| Any iOS compatible device: iPhones, iPads, etc.      	|
-| File Sizes         	| PerimeterX adds about {{TBD}} K to your iOS release app. 	|
+| File Sizes         	| PerimeterX adds about 2.3MB to your iOS release app. 	|
 | Architectures      	| ARM 32-bit or 64-bit.                                	|
 
 
