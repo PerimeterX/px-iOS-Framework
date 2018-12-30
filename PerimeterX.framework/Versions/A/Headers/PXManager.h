@@ -34,6 +34,8 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 @property (nonatomic, weak) id<PXManagerDelegate> delegate;
 @property (readonly, nonatomic, strong) NSString *appId;
 @property (readonly, nonatomic, strong) NSString *collectorUrl;
+@property (readonly, nonatomic, assign) BOOL forceCaptcha;
+@property (readonly, nonatomic, assign) BOOL forceBlock;
 @property (readonly, nonatomic, strong) NSDictionary *customParams;
 @property (nonatomic, assign) NSTimeInterval timeoutInterval;
 @property (nonatomic, assign) NSInteger retryBaseValue;
@@ -51,6 +53,9 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 -(void) setHeadersForRequest:(NSMutableURLRequest *)request;
 -(void) setHeadersForConfiguration:(NSURLSessionConfiguration *)configuration;
 
+-(void) forceBlockToken;
+-(void) forceCaptchaToken;
+
 -(PXBlockResponse *) checkError:(NSDictionary *)responseJson;
 
 -(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController captchaSuccess:(PXCompletionBlock)successBlock captchaFailure:(PXCompletionBlock)failureBlock __deprecated __deprecated_msg("Please remove the captchaFailure callback");
@@ -58,5 +63,7 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 -(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController captchaSuccess:(PXCompletionBlock)successBlock;
 
 -(void) wakeup:(PXCompletionBlock) completionBlock;
+
+-(void) resetDebugSettings;
 
 @end
