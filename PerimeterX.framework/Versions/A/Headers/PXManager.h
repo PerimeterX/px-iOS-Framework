@@ -62,6 +62,8 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 
 -(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController captchaSuccess:(PXCompletionBlock)successBlock;
 
+-(void) handleBlockResponse:(PXBlockResponse *)blockResponse with:(UIViewController *)presentingViewController captchaSuccess:(PXCompletionBlock)successBlock captchaClose:(PXCompletionBlock)closeBlock;
+
 -(void) wakeup:(PXCompletionBlock) completionBlock;
 
 -(void) resetDebugSettings;
