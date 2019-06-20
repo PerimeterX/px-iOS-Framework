@@ -40,6 +40,7 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 @property (nonatomic, assign) NSTimeInterval timeoutInterval;
 @property (nonatomic, assign) NSInteger retryBaseValue;
 @property (nonatomic, assign) NSInteger maxRetryCount;
+@property (nonatomic, assign) NSString *challengeLocale;
 
 -(void) startWith:(NSString *)appId;
 

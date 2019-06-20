@@ -17,7 +17,7 @@ typedef NS_ENUM(NSInteger, PXBlockType) {
 };
 
 
-- (id)initWithResponse:(NSDictionary *)responseJson;
+- (id)initWithResponse:(NSDictionary *)responseJson challengeLocale:(NSString *)challengeLocaleString;
 
 @property (readonly, nonatomic, assign) PXBlockType type;
 @property (readonly, nonatomic, strong) NSString *uuid;
