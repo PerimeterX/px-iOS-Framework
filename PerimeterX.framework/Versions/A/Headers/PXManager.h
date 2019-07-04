@@ -69,4 +69,6 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 
 -(void) resetDebugSettings;
 
+-(void) refreshToken;
+
 @end
