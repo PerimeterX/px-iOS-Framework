@@ -71,4 +71,6 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 
 -(void) refreshToken;
 
++(NSString *) formatCollectorUrl:(NSString *)appId with:(BOOL)isIPv6;
+
 @end
