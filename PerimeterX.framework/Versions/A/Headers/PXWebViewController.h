@@ -6,8 +6,8 @@
 //  Copyright © 2017 PerimeterX. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "PXBlockResponse.h"
+#import <WebKit/WebKit.h>
 
 @protocol PXWebViewDelegate <NSObject>
 
@@ -19,7 +19,8 @@
 
 @end
 
-@interface PXWebViewController : UIViewController <UIWebViewDelegate>
+
+@interface PXWebViewController: UIViewController <WKNavigationDelegate>
 
 @property (nonatomic, weak) id<PXWebViewDelegate> delegate;
 @property (nonatomic, strong) PXBlockResponse *blockResponse;
