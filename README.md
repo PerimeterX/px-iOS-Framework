@@ -11,7 +11,7 @@ PerimeterX is the leading provider of application security solutions that keep y
 
 | **PerimeterX SDK** 	| **Requirements**                                     	|
 |--------------------	|------------------------------------------------------	|
-| Operating System   	| iOS 8 or higher                                      	|
+| Operating System   	| iOS 9 or higher                                      	|
 | Languages          	| Objective-C, Swift                                   	|
 | Devices            	| Any iOS compatible device: iPhones, iPads, etc.      	|
 | File Sizes         	| PerimeterX adds about {{TBD}} K to your iOS release app. 	|
