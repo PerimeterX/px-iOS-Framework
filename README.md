@@ -1,6 +1,4 @@
-<p align="center">
-  <img height="75" src="assets/px-logo.png" />
-</p>
+![image](https://storage.googleapis.com/perimeterx-logos/primary_logo_red_cropped.png)
 
 ---
 
