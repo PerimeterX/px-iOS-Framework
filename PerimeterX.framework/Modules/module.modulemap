@@ -1,6 +1,0 @@
-framework module PerimeterX {
-    umbrella header "PerimeterX.h"
-    
-    export *
-    module * { export * }
-}
