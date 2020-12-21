@@ -1,0 +1,6 @@
+framework module StaticPerimeterX {
+  umbrella header "StaticPerimeterX.h"
+
+  export *
+  module * { export * }
+}
