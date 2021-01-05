@@ -8,5 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <PerimeterX/PXManager.h>
-#import <PerimeterX/PXBlockResponse.h>
+#import "PerimeterX/PXManager.h"
+#import "PerimeterX/PXBlockResponse.h"
+#import "PerimeterX/PXNetworkManager.h"
+#import "PerimeterX/PXReachability.h"
+#import "PerimeterX/PXWebViewController.h"
