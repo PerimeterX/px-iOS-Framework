@@ -29,6 +29,7 @@ typedef void (^PXCompletionBlock)(void);
 extern NSString * const PX_SDK_VERSION;
 extern NSString *const PX_AUTH_HEADER_KEY;
 
++(PXManager *) initSharedInstance:(NSString *)appId;
 +(PXManager *) sharedInstance;
 
 @property (nonatomic, weak) id<PXManagerDelegate> delegate;
