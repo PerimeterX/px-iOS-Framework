@@ -26,6 +26,7 @@
 
 typedef void (^PXCompletionBlock)(void);
 
+
 extern NSString * const PX_SDK_VERSION;
 extern NSString *const PX_AUTH_HEADER_KEY;
 
@@ -37,6 +38,7 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 @property (readonly, nonatomic, strong) NSString *collectorUrl;
 @property (readonly, nonatomic, assign) BOOL forceCaptcha;
 @property (readonly, nonatomic, assign) BOOL forceBlock;
+
 @property (readonly, nonatomic, strong) NSDictionary *customParams;
 @property (nonatomic, assign) NSTimeInterval timeoutInterval;
 @property (nonatomic, assign) NSInteger retryBaseValue;
