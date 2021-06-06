@@ -6,10 +6,10 @@ import PackageDescription
 
 let package = Package(
     name: "PerimeterX",
-    producs: [
+    products: [
         .library(
             name: "PerimeterX",
-            target: ["PerimeterX"]
+            targets: ["PerimeterX"]
         )
     ],
     dependencies: [],
