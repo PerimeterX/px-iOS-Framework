@@ -12,9 +12,9 @@
 
 
 typedef enum : NSInteger {
-	NotReachable = 0,
-	ReachableViaWiFi,
-	ReachableViaWWAN
+	PXNotReachable = 0,
+	PXReachableViaWiFi,
+	PXReachableViaWWAN
 } PXNetworkStatus;
 
 #pragma mark IPv6 Support
