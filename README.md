@@ -35,6 +35,16 @@ binary "https://raw.githubusercontent.com/PerimeterX/px-iOS-Framework/master/Per
 
 Then run `carthage update --platform iOS`
 
+### Swift Package Manager (available in v1.15.3 and above)
+
+In Xcode (11 or higher) select 'File' -> 'Swift Packages' -> 'Add Package Dependency...'
+
+Enter this repo URL (https://github.com/PerimeterX/px-iOS-Framework) in the search field and press on 'Next'.
+
+Choose the package's rule and press on 'Next'.
+
+Review the package and press on 'Finish'.
+
 ---
 
 Finally add `import PerimeterX` in your Swift implementation.
