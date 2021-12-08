@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/PXAccountDefenderManager.h</key>
+		<data>
+		TjldEX3PuP5QVJ47LwsIVsfEjFM=
+		</data>
 		<key>Headers/PXBlockResponse.h</key>
 		<data>
 		69IpP1iTrGgUn6maUAYXdhSlJr4=
@@ -26,7 +30,7 @@
 		</data>
 		<key>Headers/PerimeterX.h</key>
 		<data>
-		sPRXr7dE5E+xTVXiO9q0/hVKX1I=
+		kceOLWZFbuoFTNo1E2xBhM2ZskM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,6 +47,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/PXAccountDefenderManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TjldEX3PuP5QVJ47LwsIVsfEjFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			ywP06l2inxBVcWZNS9cNmUGS2fIZnEvFWH12vrFZwns=
+			</data>
+		</dict>
 		<key>Headers/PXBlockResponse.h</key>
 		<dict>
 			<key>hash</key>
@@ -102,11 +117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sPRXr7dE5E+xTVXiO9q0/hVKX1I=
+			kceOLWZFbuoFTNo1E2xBhM2ZskM=
 			</data>
 			<key>hash2</key>
 			<data>
-			VPlFfyn97Api821j4HChQYuiyIn8l/R3VPVVNcd3pPw=
+			SxAfLDItGaqEckHCYTHW3NiWFvq4WJAbhOoRRtMcNhY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
