@@ -46,6 +46,7 @@ extern NSString *const PX_AUTH_HEADER_KEY;
 @property (nonatomic, assign) NSString *challengeLocale;
 
 -(void) startWith:(NSString *)appId;
+-(void) startWith:(NSString *)appId enableDoctorCheck:(BOOL)enableDoctorCheck;
 
 -(void) setCustomParameters:(NSArray *)customParams __deprecated __deprecated_msg("Please use setCustomParametersDictionary");
 -(void) setCustomParametersDictionary:(NSDictionary *)customParamsDictionary;
