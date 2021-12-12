@@ -62,6 +62,5 @@
 "1.16.2": "https://github.com/PerimeterX/px-iOS-Framework/raw/1.16.2/PerimeterX.framework.zip",
 "1.16.2-doctor": "https://github.com/PerimeterX/px-iOS-Framework/raw/1.16.2-doctor/PerimeterX.framework.zip",
 "1.16.3": "https://github.com/PerimeterX/px-iOS-Framework/raw/1.16.3/PerimeterX.framework.zip",
-"1.16.3-doctor": "https://github.com/PerimeterX/px-iOS-Framework/raw/1.16.3-doctor/PerimeterX.framework.zip",
-"1.16.3-doctor-carthage": "https://github.com/PerimeterX/px-iOS-Framework/raw/1.16.3-doctor-carthage/PerimeterX.framework.zip"
+"1.16.3-doctor": "https://github.com/PerimeterX/px-iOS-Framework/raw/1.16.3-doctor/PerimeterX.framework.zip"
 }
