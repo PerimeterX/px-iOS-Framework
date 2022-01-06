@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "PerimeterX",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v11)
     ],
     products: [
         .library(
@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PerimeterX",
-            path: "PerimeterX.xcframework"
+            path: "PerimeterX_SDK.xcframework"
         )
     ]
 )
