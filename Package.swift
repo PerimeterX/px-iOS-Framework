@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "PerimeterX",
+    name: "PerimeterX_SDK",
     platforms: [
         .iOS(.v11)
     ],
     products: [
         .library(
-            name: "PerimeterX",
-            targets: ["PerimeterX"]
+            name: "PerimeterX_SDK",
+            targets: ["PerimeterX_SDK"]
         )
     ],
     dependencies: [],
