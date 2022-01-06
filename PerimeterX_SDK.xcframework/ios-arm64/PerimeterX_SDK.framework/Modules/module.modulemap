@@ -1,0 +1,4 @@
+framework module PerimeterX_SDK {
+  header "PerimeterX_SDK-Swift.h"
+  requires objc
+}
