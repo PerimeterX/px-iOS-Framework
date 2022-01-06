@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "PerimeterX",
+            name: "PerimeterX_SDK",
             path: "PerimeterX_SDK.xcframework"
         )
     ]
