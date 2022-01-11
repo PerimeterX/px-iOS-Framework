@@ -125,3 +125,6 @@ In your `AppDelegate`:
     ```
 
 5. That's it! 🎉
+
+
+The full documentation can be found [here](https://docs.perimeterx.com/pxconsole/docs/sdk-ios).
