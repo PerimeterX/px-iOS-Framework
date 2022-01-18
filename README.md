@@ -39,7 +39,7 @@ platform :ios, '13.0'
 use_frameworks!
 
 target '<Your App Name>' do
-    pod 'PerimeterX', '[PERIMETERX_IOS_SDK_VERSION]'
+    pod 'PerimeterX', '<Version>'
 end
 ```
 
