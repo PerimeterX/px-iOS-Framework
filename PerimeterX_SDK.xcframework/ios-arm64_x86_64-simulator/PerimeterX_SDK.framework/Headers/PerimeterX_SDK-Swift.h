@@ -370,7 +370,6 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK10PerimeterX")
 
 
 
-
 /// PerimeterX protocol
 SWIFT_PROTOCOL("_TtP14PerimeterX_SDK18PerimeterXDelegate_")
 @protocol PerimeterXDelegate <NSObject>
@@ -767,7 +766,6 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK10PerimeterX")
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 

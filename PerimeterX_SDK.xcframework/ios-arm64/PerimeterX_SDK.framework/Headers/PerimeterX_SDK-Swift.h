@@ -368,7 +368,6 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK10PerimeterX")
 
 
 
-
 /// PerimeterX protocol
 SWIFT_PROTOCOL("_TtP14PerimeterX_SDK18PerimeterXDelegate_")
 @protocol PerimeterXDelegate <NSObject>
