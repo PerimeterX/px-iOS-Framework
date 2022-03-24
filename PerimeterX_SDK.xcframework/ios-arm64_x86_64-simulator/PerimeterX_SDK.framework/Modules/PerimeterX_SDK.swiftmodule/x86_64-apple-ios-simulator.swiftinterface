@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PerimeterX_SDK
+import AppleArchive
 import CommonCrypto
 import CoreGraphics
 import CoreTelephony
@@ -14,6 +15,7 @@ import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
+import _System_Foundation
 public let PerimeterXErrorDomain: Swift.String
 public enum PerimeterXErrorCode : Swift.Int {
   case internalError
