@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PerimeterX_SDK
 import AppleArchive
 import CommonCrypto
@@ -7,7 +7,6 @@ import CoreGraphics
 import CoreTelephony
 import CryptoKit
 import Foundation
-import JavaScriptCore
 import Network
 import Security
 import Swift
@@ -22,6 +21,8 @@ public enum PerimeterXErrorCode : Swift.Int {
   case initializationFailed
   case initializationAlreadyRunning
   case requestWasBlocked
+  case challengeSolved
+  case challengeCancelled
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -31,9 +32,11 @@ public enum PerimeterXErrorCode : Swift.Int {
 @objc public protocol PerimeterXDelegate : ObjectiveC.NSObjectProtocol {
   @objc func perimeterxDidRequestBlocked(forAppId appId: Swift.String)
   @objc func perimeterxDidChallengeSolved(forAppId appId: Swift.String)
+  @objc func perimeterxDidChallengeCancelled(forAppId appId: Swift.String)
 }
 @_inheritsConvenienceInitializers @objc final public class PerimeterX : ObjectiveC.NSObject {
   @objc public static func start(appId: Swift.String, delegate: PerimeterX_SDK.PerimeterXDelegate?, enableDoctorCheck: Swift.Bool = false, completion: @escaping (Swift.Bool, Swift.Error?) -> ())
+  @objc public static func turnOffHybridAppSupport()
   @objc public static func addInitializationFinishedCallback(forAppId appId: Swift.String? = nil, callback: @escaping () -> ())
   @objc public static func setPolicy(policy: PerimeterX_SDK.PXPolicy, forAppId appId: Swift.String? = nil, completion: (() -> ())?)
   @objc public static func setCustomParameters(parameters: [Swift.String : Swift.String], forAppId appId: Swift.String? = nil, completion: (() -> ())?)
@@ -42,9 +45,13 @@ public enum PerimeterXErrorCode : Swift.Int {
   @objc public static func unregisterCallbackForRequestBlockedEvent(forAppId appId: Swift.String? = nil, registrationId: Swift.String)
   @objc public static func registerCallbackForChallengeSolvedEvent(forAppId appId: Swift.String? = nil, callback: @escaping () -> ()) -> Swift.String?
   @objc public static func unregisterCallbackForChallengeSolvedEvent(forAppId appId: Swift.String? = nil, registrationId: Swift.String)
+  @objc public static func registerCallbackForChallengeCancelledEvent(forAppId appId: Swift.String? = nil, callback: @escaping () -> ()) -> Swift.String?
+  @objc public static func unregisterCallbackForChallengeCancelledEvent(forAppId appId: Swift.String? = nil, registrationId: Swift.String)
   @objc public static func headersForURLRequest(forAppId appId: Swift.String? = nil) -> [Swift.String : Swift.String]
   @objc public static func handleResponse(forAppId appId: Swift.String? = nil, data: Foundation.Data, response: Foundation.URLResponse) -> Swift.Bool
   @objc public static func isRequestBlockedError(error: Swift.Error) -> Swift.Bool
+  @objc public static func isChallengeSolvedError(error: Swift.Error) -> Swift.Bool
+  @objc public static func isChallengeCancelledError(error: Swift.Error) -> Swift.Bool
   @objc public static func setUserId(userId: Swift.String?, forAppId appId: Swift.String?)
   @objc public static func registerOutgoingUrlRequest(url: Swift.String, forAppId appId: Swift.String?)
   @objc public static func sdkVersion() -> Swift.String
@@ -67,6 +74,8 @@ public enum PerimeterXErrorCode : Swift.Int {
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc public var domains: Swift.Set<Swift.String>
   @objc public var requestsInterceptedAutomaticallyEnabled: Swift.Bool
+  @objc public var delayResponseUntilChallengeSolvedOrCancelled: Swift.Bool
+  @objc public var allowJavaScriptEvaluation: Swift.Bool
   @objc public var challengeType: PerimeterX_SDK.PXPolicyChallengeType
   @objc override dynamic public init()
   @objc deinit
