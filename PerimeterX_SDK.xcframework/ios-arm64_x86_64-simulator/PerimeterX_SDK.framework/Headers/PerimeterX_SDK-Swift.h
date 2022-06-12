@@ -362,6 +362,16 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK10PerimeterX")
 /// \param appId The AppID of your account. Ignore this param if you use only one AppID.
 ///
 + (NSDictionary<NSString *, NSString *> * _Nonnull)headersForURLRequestForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
+/// This function checks if the SDK can handle the URL request’s response and presents the block screen.
+/// Returns true if the PerimeterX’s payload in the response can be handled by the SDK. This function does not present the block screen. This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param data The data that was received from the URL request.
+///
+/// \param response The response that was received from the URL request.
+///
++ (BOOL)canHandleResponseForAppId:(NSString * _Nullable)appId data:(NSData * _Nonnull)data response:(NSURLResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
 /// This function handles the URL request’s response and presents the block screen, if necessary.
 /// Returns true if the PerimeterX’s payload in the response was handled by the SDK. This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
 /// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
@@ -803,6 +813,16 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK10PerimeterX")
 /// \param appId The AppID of your account. Ignore this param if you use only one AppID.
 ///
 + (NSDictionary<NSString *, NSString *> * _Nonnull)headersForURLRequestForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
+/// This function checks if the SDK can handle the URL request’s response and presents the block screen.
+/// Returns true if the PerimeterX’s payload in the response can be handled by the SDK. This function does not present the block screen. This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param data The data that was received from the URL request.
+///
+/// \param response The response that was received from the URL request.
+///
++ (BOOL)canHandleResponseForAppId:(NSString * _Nullable)appId data:(NSData * _Nonnull)data response:(NSURLResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
 /// This function handles the URL request’s response and presents the block screen, if necessary.
 /// Returns true if the PerimeterX’s payload in the response was handled by the SDK. This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
 /// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.

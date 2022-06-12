@@ -48,6 +48,7 @@ public enum PerimeterXErrorCode : Swift.Int {
   @objc public static func registerCallbackForChallengeCancelledEvent(forAppId appId: Swift.String? = nil, callback: @escaping () -> ()) -> Swift.String?
   @objc public static func unregisterCallbackForChallengeCancelledEvent(forAppId appId: Swift.String? = nil, registrationId: Swift.String)
   @objc public static func headersForURLRequest(forAppId appId: Swift.String? = nil) -> [Swift.String : Swift.String]
+  @objc public static func canHandleResponse(forAppId appId: Swift.String? = nil, data: Foundation.Data, response: Foundation.URLResponse) -> Swift.Bool
   @objc public static func handleResponse(forAppId appId: Swift.String? = nil, data: Foundation.Data, response: Foundation.URLResponse) -> Swift.Bool
   @objc public static func isRequestBlockedError(error: Swift.Error) -> Swift.Bool
   @objc public static func isChallengeSolvedError(error: Swift.Error) -> Swift.Bool
