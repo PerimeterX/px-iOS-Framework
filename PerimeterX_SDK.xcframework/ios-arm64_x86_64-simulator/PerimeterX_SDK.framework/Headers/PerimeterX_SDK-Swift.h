@@ -229,7 +229,7 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK8PXPolicy")
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 /// Set of domains that should be intercepted. Empty set means that all domains will be intercepted. Default is an empty set.
 @property (nonatomic, copy) NSSet<NSString *> * _Nonnull domains;
-/// Indication that requests should be intercepted automatically. Specify false for manual requests handling. Default is true.
+/// Indication that requests should be intercepted automatically. Specify false for manual requests handling. Default is true. Notice that setting <code>PXPolicy/requestsInterceptedAutomaticallyEnabled-swift.type.property</code> to false override this property.
 @property (nonatomic) BOOL requestsInterceptedAutomaticallyEnabled;
 /// Indication that responses for blocked requests should be delayed until the challenge was solved or cancelled by the user. This property is relevant only when <code>requestsInterceptedAutomaticallyEnabled</code> is true.Notice that enabling this could mean that your request handler code will not be called at all (for example, when the user does not solve the challenge). Default is false.
 @property (nonatomic) BOOL delayResponseUntilChallengeSolvedOrCancelled;
@@ -237,6 +237,14 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK8PXPolicy")
 @property (nonatomic) BOOL allowJavaScriptEvaluation;
 /// Challenge type. Default is <code>PXPolicyChallengeType/webView</code>.
 @property (nonatomic) enum PXPolicyChallengeType challengeType;
+/// Set this to false before calling the <code>PerimeterX/start(appId:delegate:enableDoctorCheck:completion:)</code> fucntion in order to disable requests interception.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL requestsInterceptedAutomaticallyEnabled;)
++ (BOOL)requestsInterceptedAutomaticallyEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setRequestsInterceptedAutomaticallyEnabled:(BOOL)value;
+/// Set this to false before calling the <code>PerimeterX/start(appId:delegate:enableDoctorCheck:completion:)</code> fucntion in order to disable hybrid app suppport.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hybridAppSupportEnabled;)
++ (BOOL)hybridAppSupportEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setHybridAppSupportEnabled:(BOOL)value;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -680,7 +688,7 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK8PXPolicy")
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 /// Set of domains that should be intercepted. Empty set means that all domains will be intercepted. Default is an empty set.
 @property (nonatomic, copy) NSSet<NSString *> * _Nonnull domains;
-/// Indication that requests should be intercepted automatically. Specify false for manual requests handling. Default is true.
+/// Indication that requests should be intercepted automatically. Specify false for manual requests handling. Default is true. Notice that setting <code>PXPolicy/requestsInterceptedAutomaticallyEnabled-swift.type.property</code> to false override this property.
 @property (nonatomic) BOOL requestsInterceptedAutomaticallyEnabled;
 /// Indication that responses for blocked requests should be delayed until the challenge was solved or cancelled by the user. This property is relevant only when <code>requestsInterceptedAutomaticallyEnabled</code> is true.Notice that enabling this could mean that your request handler code will not be called at all (for example, when the user does not solve the challenge). Default is false.
 @property (nonatomic) BOOL delayResponseUntilChallengeSolvedOrCancelled;
@@ -688,6 +696,14 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK8PXPolicy")
 @property (nonatomic) BOOL allowJavaScriptEvaluation;
 /// Challenge type. Default is <code>PXPolicyChallengeType/webView</code>.
 @property (nonatomic) enum PXPolicyChallengeType challengeType;
+/// Set this to false before calling the <code>PerimeterX/start(appId:delegate:enableDoctorCheck:completion:)</code> fucntion in order to disable requests interception.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL requestsInterceptedAutomaticallyEnabled;)
++ (BOOL)requestsInterceptedAutomaticallyEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setRequestsInterceptedAutomaticallyEnabled:(BOOL)value;
+/// Set this to false before calling the <code>PerimeterX/start(appId:delegate:enableDoctorCheck:completion:)</code> fucntion in order to disable hybrid app suppport.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hybridAppSupportEnabled;)
++ (BOOL)hybridAppSupportEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setHybridAppSupportEnabled:(BOOL)value;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
