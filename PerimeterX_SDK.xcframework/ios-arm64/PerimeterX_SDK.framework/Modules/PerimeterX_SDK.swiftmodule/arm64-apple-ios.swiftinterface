@@ -36,7 +36,7 @@ public enum PerimeterXErrorCode : Swift.Int {
 }
 @_inheritsConvenienceInitializers @objc final public class PerimeterX : ObjectiveC.NSObject {
   @objc public static func start(appId: Swift.String, delegate: PerimeterX_SDK.PerimeterXDelegate?, enableDoctorCheck: Swift.Bool = false, completion: @escaping (Swift.Bool, Swift.Error?) -> ())
-  @available(swift, deprecated: 2.2.2, message: "This will be removed in v2.3.0; please use the PXPolicy.hybridAppSupportEnabled instead.")
+  @available(swift, deprecated: 2.2.2, message: "This will be removed in v3.0.0; please use the PXPolicy.hybridAppSupportEnabled instead.")
   @objc public static func turnOffHybridAppSupport()
   @objc public static func addInitializationFinishedCallback(forAppId appId: Swift.String? = nil, callback: @escaping () -> ())
   @objc public static func setPolicy(policy: PerimeterX_SDK.PXPolicy, forAppId appId: Swift.String? = nil, completion: (() -> ())?)
