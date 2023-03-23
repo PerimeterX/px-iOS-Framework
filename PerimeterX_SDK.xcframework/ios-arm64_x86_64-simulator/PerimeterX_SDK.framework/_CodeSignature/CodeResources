@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gGkqHoDIEghA0MUQdwPIPrluKR8=
+		USPa31reQURJRbwvx2xrYhwv/Hg=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8LMjPs5pDAlGY/rmbCPCgoWZGkI=
+		eDYDMgNzJyw6b6cBOPNg78xIOzw=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sMkq7WNHiNErQkcsbg5MkGq4ryc=
+		wFP2kbCckKSS5ArDxs6xoeRWbe0=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8LMjPs5pDAlGY/rmbCPCgoWZGkI=
+		eDYDMgNzJyw6b6cBOPNg78xIOzw=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CNVsWuNJAXM+JyqrRcsvlrG7vH4=
+		fAJotztDhIMJaOmqFwdTeTT3gGY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -188,7 +188,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7zRE0ndSzolFYl4LMiU2i4Y1Aqx7JM9X9rU7jEl1vA=
+			pCPSSElWkyRx4QTNzOqnMBktMluQq6u+K7WQLEE+MiE=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -216,14 +216,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9tnEqtOWzAHAiDsk5Z/CXLpnqc0MjbdccbXBKeVitcw=
+			/L5EXgBC8OZweIDlrYa+smv30RlBtucVD76Fq+SRudk=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7zRE0ndSzolFYl4LMiU2i4Y1Aqx7JM9X9rU7jEl1vA=
+			pCPSSElWkyRx4QTNzOqnMBktMluQq6u+K7WQLEE+MiE=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -251,7 +251,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xNXmHN3oK7KFTiUwh+tC++3XlNZB4Ub1ekfSz0fvleg=
+			X6Ds/3KmpDHktXiIOvdO4qtoNExSc/Xb1w6ry0B367w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

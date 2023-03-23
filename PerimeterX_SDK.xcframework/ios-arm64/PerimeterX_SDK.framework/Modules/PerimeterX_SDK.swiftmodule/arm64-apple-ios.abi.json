@@ -6563,7 +6563,7 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15124,
+      "offset": 15253,
       "length": 5,
       "value": "false"
     },
@@ -6590,15 +6590,22 @@
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 555,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSession.swift",
       "kind": "IntegerLiteral",
-      "offset": 543,
+      "offset": 585,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 724,
+      "offset": 745,
       "length": 5,
       "value": "false"
     },
@@ -8698,28 +8705,28 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 16276,
+      "offset": 16366,
       "length": 18,
       "value": "\"PXSessionManager\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16514,
+      "offset": 16604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16553,
+      "offset": 16643,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1641,
       "length": 16,
       "value": "\"PerimeterX_SDK.PXSessionManager\""
     },
@@ -9974,7 +9981,7 @@
       "kind": "StringLiteral",
       "offset": 4947,
       "length": 7,
-      "value": "\"3.0.0\""
+      "value": "\"3.0.1\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
