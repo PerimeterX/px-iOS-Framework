@@ -2330,6 +2330,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PerimeterX_SDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4503,11 +4513,158 @@
       "value": "\"PXReachability\""
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 495,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionData.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1136,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3052,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3385,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4049,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4053,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4247,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4310,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4485,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4855,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 6146,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6675,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6768,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryViewController.swift",
@@ -4520,6 +4677,118 @@
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
       "kind": "BooleanLiteral",
       "offset": 376,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 4,
+      "value": "\"do\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 690,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 789,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
+      "length": 5,
+      "value": "\"sid\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 959,
+      "length": 5,
+      "value": "\"vid\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 6,
+      "value": "\"bake\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1093,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1151,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1209,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1269,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1276,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1516,
+      "length": 6,
+      "value": "\"appc\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1761,
+      "length": 6,
+      "value": "\"dsdk\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCollectorResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1843,
       "length": 5,
       "value": "false"
     },
@@ -6155,6 +6424,20 @@
       "value": "\"Back\""
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
+      "kind": "StringLiteral",
+      "offset": 16268,
+      "length": 167,
+      "value": "\"[PerimeterX] Failed to load the Doctor App's assets. Please follow the instructions in the integration guide: \""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
+      "kind": "StringLiteral",
+      "offset": 16434,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "StringLiteral",
       "offset": 259,
@@ -6316,11 +6599,417 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8879,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8909,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9473,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9503,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10076,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10106,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11473,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6790,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10385,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10598,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10675,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12113,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12188,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13051,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13682,
+      "length": 56,
+      "value": "\"failed to set mobile data (session storage and cookie)\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 13807,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewNavigationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 14298,
+      "length": 36,
+      "value": "\"failed to set mobile data (cookie)\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+SHA256.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 6,
+      "value": "\"%02x\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+SHA256.swift",
+      "kind": "IntegerLiteral",
+      "offset": 693,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+SHA256.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1114,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+SHA256.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+SHA256.swift",
+      "kind": "StringLiteral",
+      "offset": 1285,
+      "length": 6,
+      "value": "\"%02x\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 709,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXToken.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1574,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXToken.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1613,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXToken.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 754,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 1,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchData.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
       "kind": "BooleanLiteral",
       "offset": 257,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 11,
+      "value": "\"headersOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 23,
+      "value": "\"responseHandlerCalled\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 19,
+      "value": "\"mobileChallengeOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 16,
+      "value": "\"challengeShown\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 20,
+      "value": "\"challengeDismissed\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 685,
+      "length": 17,
+      "value": "\"callbacksCalled\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 17,
+      "value": "\"deviceFPWasSent\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 814,
+      "length": 16,
+      "value": "\"userIdReported\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
+      "length": 22,
+      "value": "\"outgoingURLsReported\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 955,
+      "length": 19,
+      "value": "\"additionalDataSet\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 24,
+      "value": "\"additionalDataReported\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1148,
+      "length": 11,
+      "value": "\"headersOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1218,
+      "length": 23,
+      "value": "\"responseHandlerCalled\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 19,
+      "value": "\"mobileChallengeOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 16,
+      "value": "\"challengeShown\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1439,
+      "length": 20,
+      "value": "\"challengeDismissed\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 17,
+      "value": "\"callbacksCalled\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
+      "length": 17,
+      "value": "\"deviceFPWasSent\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1651,
+      "length": 16,
+      "value": "\"userIdReported\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 22,
+      "value": "\"outgoingURLsReported\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1802,
+      "length": 19,
+      "value": "\"additionalDataSet\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1881,
+      "length": 24,
+      "value": "\"additionalDataReported\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
@@ -6400,11 +7089,249 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3154,
+      "length": 11,
+      "value": "\"headersOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3209,
+      "length": 23,
+      "value": "\"responseHandlerCalled\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3288,
+      "length": 19,
+      "value": "\"mobileChallengeOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3359,
+      "length": 16,
+      "value": "\"challengeShown\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3424,
+      "length": 20,
+      "value": "\"challengeDismissed\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3497,
+      "length": 17,
+      "value": "\"callbacksCalled\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3564,
+      "length": 17,
+      "value": "\"deviceFPWasSent\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3631,
+      "length": 16,
+      "value": "\"userIdReported\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3696,
+      "length": 22,
+      "value": "\"outgoingURLsReported\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorNativeSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 3773,
+      "length": 24,
+      "value": "\"additionalDataReported\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/HTTPURLResponse+Code.swift",
+      "kind": "IntegerLiteral",
+      "offset": 221,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/HTTPURLResponse+Code.swift",
+      "kind": "IntegerLiteral",
+      "offset": 227,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/HTTPURLResponse+Code.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/HTTPURLResponse+Code.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 3,
+      "value": "499"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/HTTPURLResponse+Code.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/HTTPURLResponse+Code.swift",
+      "kind": "IntegerLiteral",
+      "offset": 401,
+      "length": 3,
+      "value": "599"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Local_Data\/PXLocalDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2580,
+      "length": 26,
+      "value": "\"failed to create storage\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Local_Data\/PXLocalDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2892,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
       "kind": "BooleanLiteral",
       "offset": 253,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 6,
+      "value": "\"uuid\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 6,
+      "value": "\"date\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 17,
+      "value": "\"startOnLaunchOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 7,
+      "value": "\"vidOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 10,
+      "value": "\"vidNotOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 15,
+      "value": "\"nativeSummary\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 655,
+      "length": 16,
+      "value": "\"webViewSummary\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 9,
+      "value": "\"product\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 6,
+      "value": "\"uuid\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
+      "length": 6,
+      "value": "\"date\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 17,
+      "value": "\"startOnLaunchOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1011,
+      "length": 7,
+      "value": "\"vidOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1064,
+      "length": 10,
+      "value": "\"vidNotOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 15,
+      "value": "\"nativeSummary\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 16,
+      "value": "\"webViewSummary\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1349,
+      "length": 9,
+      "value": "\"product\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
@@ -6428,11 +7355,130 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1973,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2028,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2161,
+      "length": 6,
+      "value": "\"date\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2208,
+      "length": 6,
+      "value": "\"uuid\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2242,
+      "length": 17,
+      "value": "\"startOnLaunchOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 7,
+      "value": "\"vidOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2356,
+      "length": 7,
+      "value": "\"vidOK\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2403,
+      "length": 15,
+      "value": "\"nativeSummary\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2471,
+      "length": 16,
+      "value": "\"webViewSummary\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2541,
+      "length": 9,
+      "value": "\"product\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2591,
+      "length": 15,
+      "value": "\"doctorVersion\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 2670,
+      "length": 12,
+      "value": "\"sdkVersion\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorTipsDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1272,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorTipsDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1476,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
       "kind": "StringLiteral",
       "offset": 555,
       "length": 21,
       "value": "\"reachabilityChanged\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 10,
+      "value": "\"Cellular\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 6,
+      "value": "\"WiFi\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 15,
+      "value": "\"No Connection\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
@@ -6447,6 +7493,251 @@
       "offset": 2388,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2975,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 3087,
+      "length": 21,
+      "value": "\"PXReachabilityIOS11\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5453,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 6481,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7052,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7124,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 7343,
+      "length": 19,
+      "value": "\"unavailable flags\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 10791,
+      "length": 3,
+      "value": "\"W\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 10797,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 10838,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 10844,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 10894,
+      "length": 3,
+      "value": "\"c\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 10900,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 10951,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 10957,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11009,
+      "length": 3,
+      "value": "\"i\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11015,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11066,
+      "length": 3,
+      "value": "\"C\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11072,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11122,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11128,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11172,
+      "length": 3,
+      "value": "\"l\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11178,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11216,
+      "length": 3,
+      "value": "\"d\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11222,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11242,
+      "length": 39,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11247,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11251,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11256,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11260,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11264,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11268,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11272,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11276,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachabilityIOS11.swift",
+      "kind": "StringLiteral",
+      "offset": 11280,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
@@ -6563,9 +7854,121 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
+      "offset": 6502,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6853,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "Dictionary",
+      "offset": 9458,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10119,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10416,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11005,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12968,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13021,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13215,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13582,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
       "offset": 15253,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15428,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17564,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17691,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18601,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
@@ -6573,6 +7976,97 @@
       "offset": 484,
       "length": 23,
       "value": "\"PXDeviceMotionManager\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1424,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1607,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2002,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2039,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3349,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 555,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3287,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3618,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3647,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3793,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorSummaryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4006,
+      "length": 2,
+      "value": "17"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorTipsViewController.swift",
@@ -6610,6 +8104,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/State\/PXDoctorStateWaitingToStart.swift",
+      "kind": "Array",
+      "offset": 592,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
@@ -6758,45 +8259,24 @@
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2787,
-      "length": 1,
-      "value": "0"
+      "kind": "Array",
+      "offset": 4931,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2816,
-      "length": 1,
-      "value": "1"
+      "kind": "Array",
+      "offset": 4983,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2836,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2864,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2896,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2924,
-      "length": 1,
-      "value": "5"
+      "kind": "Array",
+      "offset": 5039,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
@@ -6843,6 +8323,48 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
       "kind": "IntegerLiteral",
+      "offset": 2787,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2816,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2836,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2864,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2896,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2924,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
       "offset": 5303,
       "length": 1,
       "value": "0"
@@ -6860,6 +8382,27 @@
       "offset": 5364,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "Array",
+      "offset": 6402,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "Array",
+      "offset": 6454,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "Array",
+      "offset": 6510,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
@@ -6933,31 +8476,10 @@
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6635,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6657,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6682,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6710,
-      "length": 1,
-      "value": "3"
+      "kind": "Array",
+      "offset": 8305,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
@@ -6990,9 +8512,44 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
       "kind": "IntegerLiteral",
+      "offset": 6635,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6657,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6682,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6710,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
       "offset": 8442,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "Array",
+      "offset": 8974,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
@@ -7007,6 +8564,167 @@
       "offset": 8442,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9564,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9657,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9907,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9930,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10009,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10249,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10377,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10522,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10632,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10673,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "Array",
+      "offset": 14625,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19068,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20884,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20957,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20998,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21247,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21471,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21614,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21850,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21994,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22049,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSummaryDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22263,
+      "length": 2,
+      "value": "17"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
@@ -7028,13 +8746,55 @@
       "offset": 242,
       "length": 6,
       "value": "\"_px3\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 440,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 568,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 607,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 1,
+      "value": "3"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
       "kind": "IntegerLiteral",
       "offset": 765,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
@@ -7098,6 +8858,447 @@
       "offset": 1021,
       "length": 5,
       "value": "\"ttl\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "StringLiteral",
+      "offset": 1300,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1336,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1430,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1439,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "StringLiteral",
+      "offset": 2166,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 86,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
+      "kind": "StringLiteral",
+      "offset": 2585,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXHTTPCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 535,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXHTTPCookie.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXFingerprint.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXFingerprint.swift",
+      "kind": "StringLiteral",
+      "offset": 555,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXFingerprint.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXFingerprint.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 52,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXFingerprint.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 1,
+      "value": "\"|,|\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXFingerprint.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 1,
+      "value": "\"|,|\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXFingerprint.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 8,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 57,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "StringLiteral",
+      "offset": 548,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 572,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 785,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 800,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 834,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 872,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 879,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 959,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 966,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1002,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1009,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1045,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1087,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1716,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1723,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1753,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1773,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1924,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2014,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2097,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2168,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2245,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2372,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2443,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2534,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2605,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2681,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2727,
+      "length": 3,
+      "value": "331"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2749,
+      "length": 3,
+      "value": "331"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2810,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2995,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXChallenge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3326,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Thread+Symbol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 322,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Thread+Symbol.swift",
+      "kind": "BooleanLiteral",
+      "offset": 366,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1853,
+      "length": 27,
+      "value": "\"failed to show block view\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Logger\/PXLoggerUserInfoKey.swift",
@@ -8668,6 +10869,272 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorInstructionsTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 918,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Dictionary+Form.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Dictionary+Form.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Dictionary+Form.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Dictionary+Form.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Dictionary+Form.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 653,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 9,
+      "value": "\"headers\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8825,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8977,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8984,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9239,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9246,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "Array",
+      "offset": 10623,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10826,
+      "length": 36,
+      "value": "\"failed to create touches data json\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "Array",
+      "offset": 11254,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11462,
+      "length": 42,
+      "value": "\"failed to create device motion data json\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12965,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "Array",
+      "offset": 14142,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "Array",
+      "offset": 14615,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "Array",
+      "offset": 17689,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 17984,
+      "length": 42,
+      "value": "\"failed to create confMobile request data\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 18157,
+      "length": 27,
+      "value": "\"payload is not valid json\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19865,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19895,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19897,
+      "length": 67,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "Array",
+      "offset": 20368,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20566,
+      "length": 29,
+      "value": "\"<data could not be decoded>\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20693,
+      "length": 48,
+      "value": "\"failed to decode token. response = \""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20740,
+      "length": 67,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23016,
+      "length": 243,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23075,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23109,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23157,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23215,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23249,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXAPIDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 23258,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
       "kind": "StringLiteral",
       "offset": 198,
@@ -8694,6 +11161,258 @@
       "offset": 240,
       "length": 18,
       "value": "\"account defender\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3258,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3296,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3618,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3803,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4051,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4228,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4403,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4581,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5081,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5268,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5768,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5876,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5915,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6020,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6058,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6316,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6764,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6879,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7061,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7311,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7995,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8433,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11751,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12982,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14874,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16983,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17046,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17651,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17691,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18426,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22433,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22913,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23097,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23319,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23563,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23753,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorManager.swift",
@@ -8703,25 +11422,200 @@
       "value": "\"PerimeterX_SDK.PXDoctorManager\""
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXURLSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1446,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXURLSessionDelegate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1470,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+XOR.swift",
+      "kind": "IntegerLiteral",
+      "offset": 186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3571,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4719,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5684,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5955,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8951,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8963,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10942,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11994,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12314,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13181,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15288,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16160,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 16366,
+      "offset": 16625,
       "length": 18,
       "value": "\"PXSessionManager\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16604,
+      "offset": 16863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16643,
+      "offset": 16902,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17778,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20305,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21714,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22119,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24418,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 24880,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31028,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
@@ -8729,6 +11623,76 @@
       "offset": 1641,
       "length": 16,
       "value": "\"PerimeterX_SDK.PXSessionManager\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 693,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2870,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7564,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9443,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9811,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10203,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10727,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10874,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorViewController.swift",
@@ -8750,6 +11714,48 @@
       "offset": 366,
       "length": 41,
       "value": "\"PXURLRequestsInterceptorRetryRequestKey\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2062,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2879,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3281,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3654,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5241,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5813,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
@@ -8780,11 +11786,144 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/State\/PXDoctorStateWelcome.swift",
+      "kind": "Array",
+      "offset": 571,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorTipsTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 862,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXCollectorCommunicationState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXCollectorCommunicationState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXCollectorCommunicationState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 523,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Process+Debugger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 639,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Process+Debugger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 665,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Process+Debugger.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 15,
+      "value": "\"sysctl failed\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Process+Debugger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 798,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1554,
+      "length": 50,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1609,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 23,
+      "value": "\"no block page to load\""
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
       "kind": "StringLiteral",
       "offset": 611,
       "length": 16,
       "value": "\"PXTouchManager\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1605,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1646,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1912,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4026,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4038,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/State\/PXDoctorStateWebViewCheckCompleted.swift",
+      "kind": "Array",
+      "offset": 606,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -9464,6 +12603,13 @@
       "offset": 3879,
       "length": 11,
       "value": "\"sdk_crash\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 3950,
+      "length": 5,
+      "value": "\"v%@\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -9981,7 +13127,7 @@
       "kind": "StringLiteral",
       "offset": 4947,
       "length": 7,
-      "value": "\"3.0.1\""
+      "value": "\"3.0.2\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -9996,6 +13142,13 @@
       "offset": 5140,
       "length": 15,
       "value": "\"collector-%@.\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 5221,
+      "length": 16,
+      "value": "\"perimeterx.net\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -10024,6 +13177,13 @@
       "offset": 5768,
       "length": 1,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5868,
+      "length": 3,
+      "value": "300"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -10063,6 +13223,20 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
+      "offset": 6726,
+      "length": 22,
+      "value": "\"\/px\/captcha_callback\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 6875,
+      "length": 19,
+      "value": "\"\/px\/captcha_close\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
       "offset": 6973,
       "length": 10,
       "value": "\"status=0\""
@@ -10094,6 +13268,20 @@
       "offset": 7348,
       "length": 14,
       "value": "\"custom_param\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 7441,
+      "length": 36,
+      "value": "\"^\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 7465,
+      "length": 1,
+      "value": "\"([1-9]|10)$\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -10174,6 +13362,41 @@
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8486,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8525,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 8679,
+      "length": 50,
+      "value": "\"sessionStorage.setItem(\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 8711,
+      "length": 1,
+      "value": "\"\", \"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 8725,
+      "length": 1,
+      "value": "\"\")\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
       "offset": 8776,
       "length": 16,
@@ -10199,6 +13422,13 @@
       "offset": 9082,
       "length": 30,
       "value": "\"com.perimeterx.mobile_sdk.%@\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "Array",
+      "offset": 9237,
+      "length": 68,
+      "value": "[\"5792fdea2482cf45cb160bca8bb615a3a33848890e3fdcd29038d9d04a14e9bf\"]"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -10422,7 +13652,7 @@
       "kind": "IntegerLiteral",
       "offset": 12036,
       "length": 3,
-      "value": "40"
+      "value": "-40"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -10461,10 +13691,94 @@
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 12533,
+      "length": 13,
+      "value": "\"\/doctor_app\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 12651,
+      "length": 9,
+      "value": "\"\/bundle\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 12764,
+      "length": 50,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 12784,
+      "length": 1,
+      "value": "\"\/doctor_app\/\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 12812,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 12911,
+      "length": 53,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 12931,
+      "length": 1,
+      "value": "\"\/doctor_app_\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 12959,
+      "length": 1,
+      "value": "\".aar\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 13030,
+      "length": 130,
+      "value": "\"https:\/\/perimeterx.jfrog.io\/artifactory\/files\/doctor-app-assets\/ios\/\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 13126,
+      "length": 1,
+      "value": "\"x\/\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 13144,
+      "length": 1,
+      "value": "\"\/doctor_app.aar\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
       "offset": 13253,
       "length": 2,
       "value": "10"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13362,
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -10530,11 +13844,151 @@
       "value": "\"bundle.json\""
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 14319,
+      "length": 9,
+      "value": "\"\/assets\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "StringLiteral",
+      "offset": 14477,
+      "length": 4,
+      "value": "\"px\""
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchInterception.swift",
       "kind": "BooleanLiteral",
       "offset": 555,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchInterception.swift",
+      "kind": "BooleanLiteral",
+      "offset": 705,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorTestSelectionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 695,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorTestSelectionViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2401,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorTestSelectionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6851,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorTestSelectionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6885,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorTestSelectionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7201,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXJailbrokenDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 415,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXJailbrokenDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 3,
+      "value": "\"r\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXJailbrokenDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 623,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXJailbrokenDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 867,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXJailbrokenDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 973,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXJailbrokenDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1042,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/URLSessionConfiguration+swizzle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorInstructionsDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1227,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorInstructionsDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorInstructionsDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1476,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorInstructionsDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1763,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorInstructionsDataSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1798,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXFieldsMapping.swift",
@@ -10894,6 +14348,118 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/JSONSerialization+PX.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 23,
+      "value": "\"failed to create data\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/JSONSerialization+PX.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 26,
+      "value": "\"object is not valid json\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/State\/PXDoctorStateProductSelection.swift",
+      "kind": "Array",
+      "offset": 598,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Bool+String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Bool+String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 538,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorCheckCompletedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1311,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/UI\/PXDoctorCheckCompletedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1994,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1409,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1681,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1859,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1921,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3699,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3755,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "Array",
+      "offset": 5271,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Business_Logic\/PXBusinessLogicManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5440,
+      "length": 37,
+      "value": "\"failed to create mobile device data\""
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorSession.swift",
       "kind": "BooleanLiteral",
       "offset": 221,
@@ -10948,6 +14514,146 @@
       "offset": 538,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/State\/PXDoctorStateExit.swift",
+      "kind": "Array",
+      "offset": 567,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 522,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 817,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1080,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1098,
+      "length": 31,
+      "value": "\"@\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 1,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1171,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1192,
+      "length": 6,
+      "value": "\".png\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1413,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2338,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4617,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4818,
+      "length": 7,
+      "value": "\".json\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "Array",
+      "offset": 4965,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5355,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/PXDoctorAssetsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5547,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/PXMath.swift",
+      "kind": "IntegerLiteral",
+      "offset": 208,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewMessagesHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1506,
+      "length": 28,
+      "value": "\"failed to decode challenge\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Logger\/PXLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1221,
+      "length": 38,
+      "value": "\"can't log failure (AppId is not set)\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3801,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockMetadata.swift",
@@ -11070,6 +14776,62 @@
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 15,
+      "value": "\"webViewSynced\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 16,
+      "value": "\"challengeShown\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 20,
+      "value": "\"challengeDismissed\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 15,
+      "value": "\"mobileDataSet\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 15,
+      "value": "\"webViewSynced\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 16,
+      "value": "\"challengeShown\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 20,
+      "value": "\"challengeDismissed\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 871,
+      "length": 15,
+      "value": "\"mobileDataSet\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
       "kind": "BooleanLiteral",
       "offset": 1059,
       "length": 5,
@@ -11095,6 +14857,90 @@
       "offset": 1237,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 15,
+      "value": "\"webViewSynced\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1777,
+      "length": 16,
+      "value": "\"challengeShown\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 20,
+      "value": "\"challengeDismissed\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/Model\/PXDoctorWebViewSummary.swift",
+      "kind": "StringLiteral",
+      "offset": 1915,
+      "length": 15,
+      "value": "\"mobileDataSet\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXSessionMetadata.swift",
+      "kind": "BooleanLiteral",
+      "offset": 659,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/API_Data\/PXSessionMetadata.swift",
+      "kind": "BooleanLiteral",
+      "offset": 700,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/State\/PXDoctorStateSummary.swift",
+      "kind": "Array",
+      "offset": 578,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/State\/PXDoctorStateInstructions.swift",
+      "kind": "Array",
+      "offset": 614,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Usage\/PXUsageDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 834,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Usage\/PXUsageDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 885,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Exception_Handler\/PXExceptionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 1391,
+      "length": 56,
+      "value": "\"failed to convert crash log to base64 (data to string)\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Exception_Handler\/PXExceptionMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 1605,
+      "length": 56,
+      "value": "\"failed to convert crash log to base64 (string to data)\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PXPolicy.swift",
@@ -11188,6 +15034,34 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/String+Regex.swift",
+      "kind": "Array",
+      "offset": 280,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/String+Regex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/String+Regex.swift",
+      "kind": "Array",
+      "offset": 495,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Exception_Handler\/PXExceptionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1060,
+      "length": 39,
+      "value": "\"failed to create crash reporter proxy\""
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Exception_Handler\/PXExceptionHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 1540,
@@ -11195,11 +15069,144 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Exception_Handler\/PXExceptionHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1893,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Exception_Handler\/PXExceptionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3554,
+      "length": 34,
+      "value": "\"failed to get generate crash log\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Exception_Handler\/PXExceptionHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 3864,
+      "length": 33,
+      "value": "\"failed to get crash report data\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Doctor_App\/State\/PXDoctorStateNativeCheckCompleted.swift",
+      "kind": "Array",
+      "offset": 604,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/UIStoryboard+SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/UIStoryboard+SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 690,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/UIStoryboard+SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 700,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 541,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 630,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 798,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 864,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 952,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/URL+Domain.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 104,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/URL+Domain.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/URL+Domain.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/WKWebView+swizzle.swift",
       "kind": "BooleanLiteral",
       "offset": 898,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/WKWebView+swizzle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1923,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/String+SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/String+SHA1.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 8,
+      "value": "\"%02hhx\""
     }
   ]
 }
