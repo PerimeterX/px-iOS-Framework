@@ -8071,7 +8071,7 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18617,
+      "offset": 18621,
       "length": 4,
       "value": "true"
     },
@@ -8085,42 +8085,42 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1424,
+      "offset": 1463,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1607,
+      "offset": 1658,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2002,
+      "offset": 2051,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2039,
+      "offset": 2088,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3349,
+      "offset": 3397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceMotionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3638,
+      "offset": 3690,
       "length": 4,
       "value": "true"
     },
@@ -12012,35 +12012,35 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1605,
+      "offset": 1679,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1646,
+      "offset": 1720,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1912,
+      "offset": 1984,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4026,
+      "offset": 4101,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Touch_Interception\/PXTouchManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4038,
+      "offset": 4113,
       "length": 5,
       "value": "false"
     },
@@ -13253,7 +13253,7 @@
       "kind": "StringLiteral",
       "offset": 4947,
       "length": 7,
-      "value": "\"3.0.5\""
+      "value": "\"3.0.6\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
