@@ -11977,28 +11977,28 @@
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2244,
+      "offset": 2327,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2293,
+      "offset": 2376,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2299,
+      "offset": 2382,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Block\/PXBlockViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3206,
+      "offset": 3289,
       "length": 23,
       "value": "\"no block page to load\""
     },
@@ -13253,7 +13253,7 @@
       "kind": "StringLiteral",
       "offset": 4947,
       "length": 7,
-      "value": "\"3.0.6\""
+      "value": "\"3.0.7\""
     },
     {
       "filePath": "\/Users\/oren.yaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
