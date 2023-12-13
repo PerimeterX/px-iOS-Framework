@@ -14,63 +14,63 @@
 		</data>
 		<key>Headers/PerimeterX_SDK-Swift.h</key>
 		<data>
-		8avFsMvSgOjoBar4k21htVOhhc4=
+		BCatjUX0UCBluOO9EBCGm75sLvk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9vpPy6Gnx7nLBlrJ+VaQdwwyj7U=
+		lShUzXq2211+QN7uOGXriHKiUnM=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q4sIzhylg0sHfad6DwhACAyPkmY=
+		HwHdubfoFBn29jO+EXoHskFjAI8=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		v5ctWevjVvno12Tamw3KFCEfd/c=
+		DGxYMp2SYvQ7sEjS9MUnbFVRIHI=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gZYZPMsWaDxpt+C6MNcPJldG29c=
+		mCnNBPe9lJkHxpi+grPzUAVC9Bs=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		v5ctWevjVvno12Tamw3KFCEfd/c=
+		DGxYMp2SYvQ7sEjS9MUnbFVRIHI=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gzYGP9209xICMV8tqb9G+c+ar8c=
+		elYEK60URPsNTmBgdpmcb2hD2nM=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q4sIzhylg0sHfad6DwhACAyPkmY=
+		HwHdubfoFBn29jO+EXoHskFjAI8=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xOB6jS8dDvQyg8lN4iWvfI9KwYg=
+		MEAbuP1UFrQFPSfyW6rEWjqzj0w=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kV2NJ4IuN+aot/oow8DmjOWsejM=
+		Ku/fJrFRGFZCy3PZT0kxnVfMEVo=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xOB6jS8dDvQyg8lN4iWvfI9KwYg=
+		MEAbuP1UFrQFPSfyW6rEWjqzj0w=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LhRKbyCG3u3gC8N/0izbyXs1Gvw=
+		P+Ct5NNvdPiKTZ6WmXUdDPzUOsc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		OUohdhfrR7xW32TXuzAeUliPQzY=
+		BgnXcmzh5UK0D8VrFGGib5ObHuk=
 		</data>
 		<key>PXStoryboard.storyboardc/Info.plist</key>
 		<data>
-		2P48LTcJKLaiomB7GyZlq3wZYhg=
+		b0vQmCC/PRNO9rgv/vK8je0ANWk=
 		</data>
 		<key>PXStoryboard.storyboardc/LLH-7Z-Imd-view-7Eu-gb-Chz.nib</key>
 		<data>
-		RtHiH+uriCzBh1Wzhe2p7F/S8aU=
+		GVB51WBmCQK46ho0BPpQjcQ79HY=
 		</data>
 		<key>PXStoryboard.storyboardc/PXBlockViewController.nib</key>
 		<data>
@@ -87,6 +87,10 @@
 		<key>PXStoryboard.storyboardc/PXDoctorInstructionsViewController.nib</key>
 		<data>
 		lgzj6U2mdXQXiFgAVWwKpJDT+hM=
+		</data>
+		<key>PXStoryboard.storyboardc/PXDoctorProductSelectionViewController.nib</key>
+		<data>
+		lXACh4ydSiXAPZnF9qad65yV2+c=
 		</data>
 		<key>PXStoryboard.storyboardc/PXDoctorSummaryViewController.nib</key>
 		<data>
@@ -114,19 +118,19 @@
 		</data>
 		<key>PXStoryboard.storyboardc/RYV-RZ-ixt-view-LeY-J2-2rm.nib</key>
 		<data>
-		lne494d9oL4g3sB9/+0rT0ikHJA=
+		SZl4on39/cfa8Q5U1Zz3OXdIrX4=
 		</data>
 		<key>PXStoryboard.storyboardc/UDw-hL-7MI-view-s9K-xP-gmi.nib</key>
 		<data>
-		FupooemApX4PNkq97+zE8Pmkgmg=
+		xO3V1/aBrWZIupdKz/yqW4MLmrc=
 		</data>
 		<key>PXStoryboard.storyboardc/Xct-lQ-GhO-view-psl-PT-nAj.nib</key>
 		<data>
-		kPHUYecQUKecKFX7hyiUgR87gxQ=
+		sT7ZpCCHRoDVVyTraSgdWWoVg+w=
 		</data>
 		<key>PXStoryboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		ZpmvUAQITLrvcQ4lQ7maOXsJWcM=
+		uaR4+xgvKneCYCmhNgScJOditeE=
 		</data>
 		<key>PXStoryboard.storyboardc/Zgx-bc-VTF-view-4UV-eP-S6f.nib</key>
 		<data>
@@ -134,11 +138,11 @@
 		</data>
 		<key>PXStoryboard.storyboardc/ckG-oE-IIz-view-6so-Du-xsR.nib</key>
 		<data>
-		DRIsP7kTT5/ps/Ti3mXDnY/5Naw=
+		qJ5iqn2OCI7ZCEnsCpv7v1rvEyA=
 		</data>
 		<key>PXStoryboard.storyboardc/gDH-X7-6lH-view-JfA-e3-dSg.nib</key>
 		<data>
-		uC8SRP7A9AJH8Z1hdcbsDvo95sM=
+		P1vGWFdxMXDhSfhx0cp2580SlLI=
 		</data>
 		<key>PXStoryboard.storyboardc/ieB-0Y-kJS-view-gWn-j4-uOf.nib</key>
 		<data>
@@ -146,11 +150,19 @@
 		</data>
 		<key>PXStoryboard.storyboardc/xZU-Yc-Vff-view-nwm-AL-CcD.nib</key>
 		<data>
-		zxn+otsUFelRrwYWtQ5/deOmV5I=
+		IRhAOvt37rgmvCwdbyFpG3lGl/c=
+		</data>
+		<key>PXStoryboard.storyboardc/z3B-dX-xqY-view-4tc-a5-3nF.nib</key>
+		<data>
+		lf6i+x5WeY1MX+VOpnEIi3midnE=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		H3Zsw8LOchEujPfyMR8pIz7bPNg=
+		</data>
+		<key>PrivateHeaders/PXCrashReporterProxy.h</key>
+		<data>
+		cyillxAedgojzerrslwlgZH9mW0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -173,98 +185,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XDGhOhi9/txCA70WFON7YjzWo4boWSBqvV3N3T5IhyE=
+			zlhjJBt4cwYu/fcn2Y4aCr7TYTxSnd1eufjC2bcpAPc=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			akh8cD/EUouq1ww/Aa7lNR/DE6CD56Tcz7JinjeRMTY=
+			SDHa4+Wty6CmZOdyYBAMHtJdRST+Z6b5SuFwyEuaVm0=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e632MnUlUasU2G9dDXjSN8ABctHnXUsyt/U/K+iEez8=
+			9AZfm1d3JRia7y+0EmjQtmIgY+S6s+s+gu6zjcw+5/8=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YkZcoiPE8jgDCKwdyiXcjXCDjl4RlR6p/AkHLADZJpM=
+			rLgjj4KlXkpd22Umlr1Mpjz/wO8qj4U822Ga7iIkrfs=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e632MnUlUasU2G9dDXjSN8ABctHnXUsyt/U/K+iEez8=
+			9AZfm1d3JRia7y+0EmjQtmIgY+S6s+s+gu6zjcw+5/8=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eBd5/5sHv8l9rTqtVMMX4FvcsBcZZmB3mRFAdvX1gTI=
+			zkFFRzmd1rzcLB/TloeS47rMjsgj19qzbgFXQQpscfk=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			akh8cD/EUouq1ww/Aa7lNR/DE6CD56Tcz7JinjeRMTY=
+			SDHa4+Wty6CmZOdyYBAMHtJdRST+Z6b5SuFwyEuaVm0=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hNu81k9ApK7BwhrF1IR518E0cn/19/01JERMSeNqDZk=
+			WJyZDarBWDEkGriKKmAKHQy1TbhSG/qARgpqjZywkm0=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AwDtB1jwY30GncgpfC7d7Bf1Vl+L1FNg0TKONb72qs4=
+			eDl3r4Jzwxz4owVeqJtkxUu/MgmJdsVM/wf2x2CoEsE=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hNu81k9ApK7BwhrF1IR518E0cn/19/01JERMSeNqDZk=
+			WJyZDarBWDEkGriKKmAKHQy1TbhSG/qARgpqjZywkm0=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			skkDihhZFT6kfA85wG2l4bON5I23Gjt7urmx5Lo8rUo=
+			dsSIOFU3w8+caxSoTAGkxaGJz/FuAmucs13P1c9Js3g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OnTsPcePZQjqZdeFvzaX0VswNovc/89h8anafjyGOI0=
+			bu1jHD2hMXE1xfVOKCYwM3vNCeV8IWvrhSrL+SgIFGQ=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			59CUGgmqbBzJcg5t5qfgmeaR2lZNSLlF+vXuhmeNjUA=
+			IbVQcvP/1oGNlKmxqxp3NfGIZRmmY86+LBvb8JLP2wA=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/LLH-7Z-Imd-view-7Eu-gb-Chz.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QLUJbJ3shxngjQPRMOl/BIR/EA7tiWP4oJ0glSB2Lvw=
+			GjSTjx4gxMXP/YGJ8yldAys8UM57Xf1B1I/zjUYvnqw=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/PXBlockViewController.nib</key>
@@ -293,6 +305,13 @@
 			<key>hash2</key>
 			<data>
 			tvC6culaEiNrHkb/ZGc1Q428iIx+Kd/vGLHSd7f0Xsw=
+			</data>
+		</dict>
+		<key>PXStoryboard.storyboardc/PXDoctorProductSelectionViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i2y+XeBAmhxfOJrl2YlsFP/zY8oXfPYQsndP+g45fzY=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/PXDoctorSummaryViewController.nib</key>
@@ -341,28 +360,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SalfCyp3dnJxK7mBDUKg/84AbefIraJE7Mn92HexU3k=
+			38Sm9+sVu+OJqQ3HjydjUOPZPEPq/ObEgVjekVsqu8s=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/UDw-hL-7MI-view-s9K-xP-gmi.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g84RED/1NSK/7bfvN31aDDfZoBygQToecQaGKZv10hE=
+			71iLpxGqQaqqT8Am/uSnRRfojM2Ilg832ndS9OYChgU=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/Xct-lQ-GhO-view-psl-PT-nAj.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			auGbPz0zYkTDlrl6rT0XgxsjhdDBhsvpt6A6yYtwdn0=
+			JLrIAqkl9tyiMRw61FJGFy/jeqxJ+CD2tWKvouEWWb0=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UJGaWka1e8it1zMEoE0fGnVutetRNrqodINDMjSN/EM=
+			jM7BBblsYOjmPdYyJUXcrpvScEZo75L4vQjTVlloXsY=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/Zgx-bc-VTF-view-4UV-eP-S6f.nib</key>
@@ -376,14 +395,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ViOIBQMMUQ+q8pc+lv7NO5QGRtXD7Ng09fr49pWc6Cw=
+			1CySJTrPTrz2Z7DyZ909JT1mei7vC/vFFnx+eZkpkvk=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/gDH-X7-6lH-view-JfA-e3-dSg.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KYq1+03jrQnyW8z7A+0edpV/itkD+4jXt/9ZdVKh9Z4=
+			poKK7FgBqPBxvGp5gTmc4YiuxgNass7wbOg8r8OFy1E=
 			</data>
 		</dict>
 		<key>PXStoryboard.storyboardc/ieB-0Y-kJS-view-gWn-j4-uOf.nib</key>
@@ -397,7 +416,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8EfNQuH5sOFQLEOx3VjRLNAIKlGVbjpbdNf0AyoREfM=
+			/I6mf2d29Ob9eJC+21d51E80pRjakcrv7F9my/NzN4I=
+			</data>
+		</dict>
+		<key>PXStoryboard.storyboardc/z3B-dX-xqY-view-4tc-a5-3nF.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5VRcxpGuroK9csyQbW71mYGkRhyr+6jlKWfi9ipsyWU=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -405,6 +431,13 @@
 			<key>hash2</key>
 			<data>
 			JHWpNMo9+YVWlum+wzgzwLytiO/sZ099sUBo/cfBTQg=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PXCrashReporterProxy.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JaBljw37uoRmYL1ombn+d6nCijFm0tcuisOFtckHYEs=
 			</data>
 		</dict>
 	</dict>
