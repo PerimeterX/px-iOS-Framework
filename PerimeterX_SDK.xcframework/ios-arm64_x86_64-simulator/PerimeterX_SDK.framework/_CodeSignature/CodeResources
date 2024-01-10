@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ILozRrmPvujD1AuO7IZur1WbBdY=
+		lQqXimiFR+RTj+lvZSCPy4UkfFQ=
 		</data>
 		<key>Headers/PerimeterX.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lShUzXq2211+QN7uOGXriHKiUnM=
+		haoXRMeBzxc1W0Wfj/8qMbT3xOI=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		HwHdubfoFBn29jO+EXoHskFjAI8=
+		R6pyNcTTlu0W5cx4O8v0VAkN0/g=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		elYEK60URPsNTmBgdpmcb2hD2nM=
+		5zouEjG7fc8LD3rGBG3rwfjq5AY=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HwHdubfoFBn29jO+EXoHskFjAI8=
+		R6pyNcTTlu0W5cx4O8v0VAkN0/g=
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		P+Ct5NNvdPiKTZ6WmXUdDPzUOsc=
+		r3BYRPRXQZivU6qK7HZAgWE4toQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mn6Dpr7ovHllcrf+f8hk15pkf67i/ks39DX7bNeP5MM=
+			AUenlXESy96NwwbNANkk/QRUGzHwWJ1cgmwBLIPOhFQ=
 			</data>
 		</dict>
 		<key>Headers/PerimeterX.h</key>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SDHa4+Wty6CmZOdyYBAMHtJdRST+Z6b5SuFwyEuaVm0=
+			iMT8wtGutVUT5Yac8jjwLT4WMG0hxKity2a2kK6hEMk=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -220,14 +220,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zkFFRzmd1rzcLB/TloeS47rMjsgj19qzbgFXQQpscfk=
+			NN/yStIkS4y2LAQerTdv+/lF5xMvdNC179kU1w53PzA=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SDHa4+Wty6CmZOdyYBAMHtJdRST+Z6b5SuFwyEuaVm0=
+			iMT8wtGutVUT5Yac8jjwLT4WMG0hxKity2a2kK6hEMk=
 			</data>
 		</dict>
 		<key>Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -255,7 +255,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dsSIOFU3w8+caxSoTAGkxaGJz/FuAmucs13P1c9Js3g=
+			NFESHi9qAbvAzNZxvTHO5K/cU/avNlf0DvgW+zp0WrM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
