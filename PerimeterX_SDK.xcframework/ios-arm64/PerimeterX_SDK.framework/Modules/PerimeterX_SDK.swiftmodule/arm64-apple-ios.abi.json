@@ -614,6 +614,48 @@
             "fixedbinaryorder": 9
           },
           {
+            "kind": "Var",
+            "name": "httpBodyInputStreamReadFailed",
+            "printedName": "httpBodyInputStreamReadFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PerimeterX_SDK.PerimeterXErrorCode.Type) -> PerimeterX_SDK.PerimeterXErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PerimeterXErrorCode",
+                    "printedName": "PerimeterX_SDK.PerimeterXErrorCode",
+                    "usr": "c:@M@PerimeterX_SDK@E@PerimeterXErrorCode"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PerimeterX_SDK.PerimeterXErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PerimeterXErrorCode",
+                        "printedName": "PerimeterX_SDK.PerimeterXErrorCode",
+                        "usr": "c:@M@PerimeterX_SDK@E@PerimeterXErrorCode"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PerimeterX_SDK@E@PerimeterXErrorCode@PerimeterXErrorCodeHttpBodyInputStreamReadFailed",
+            "mangledName": "$s14PerimeterX_SDK0A10XErrorCodeO29httpBodyInputStreamReadFailedyA2CmF",
+            "moduleName": "PerimeterX_SDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 10
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -4252,6 +4294,110 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "automaticInterceptorUrlSessionConfiguration",
+            "printedName": "automaticInterceptorUrlSessionConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionConfiguration",
+                "printedName": "Foundation.URLSessionConfiguration",
+                "usr": "c:objc(cs)NSURLSessionConfiguration"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cpy)automaticInterceptorUrlSessionConfiguration",
+            "mangledName": "$s14PerimeterX_SDK8PXPolicyC43automaticInterceptorUrlSessionConfigurationSo012NSURLSessionH0CvpZ",
+            "moduleName": "PerimeterX_SDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionConfiguration",
+                    "printedName": "Foundation.URLSessionConfiguration",
+                    "usr": "c:objc(cs)NSURLSessionConfiguration"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cm)automaticInterceptorUrlSessionConfiguration",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC43automaticInterceptorUrlSessionConfigurationSo012NSURLSessionH0CvgZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionConfiguration",
+                    "printedName": "Foundation.URLSessionConfiguration",
+                    "usr": "c:objc(cs)NSURLSessionConfiguration"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cm)setAutomaticInterceptorUrlSessionConfiguration:",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC43automaticInterceptorUrlSessionConfigurationSo012NSURLSessionH0CvsZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PerimeterX_SDK8PXPolicyC43automaticInterceptorUrlSessionConfigurationSo012NSURLSessionH0CvMZ",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC43automaticInterceptorUrlSessionConfigurationSo012NSURLSessionH0CvMZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -4342,6 +4488,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PerimeterX_SDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -5852,812 +6008,819 @@
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 3962,
+      "offset": 3985,
+      "length": 66,
+      "value": "\"Request failed due to an error in reading http body input stream\""
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
+      "kind": "StringLiteral",
+      "offset": 4097,
       "length": 12,
       "value": "\"Doctor App\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4021,
+      "offset": 4156,
       "length": 15,
       "value": "\"By PerimeterX\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4093,
+      "offset": 4228,
       "length": 23,
       "value": "\"Native framework test\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4174,
+      "offset": 4309,
       "length": 25,
       "value": "\"Web view framework test\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4258,
+      "offset": 4393,
       "length": 42,
       "value": "\"Start navigating your native app screens\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4360,
+      "offset": 4495,
       "length": 38,
       "value": "\"Start navigating your web view pages\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4451,
+      "offset": 4586,
       "length": 10,
       "value": "\"Welcome!\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4517,
+      "offset": 4652,
       "length": 111,
       "value": "\"PerimeterX can help verify your Mobile SDK integration by simulating a typical user flow in your application.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4681,
+      "offset": 4816,
       "length": 6,
       "value": "\"👋\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4743,
+      "offset": 4878,
       "length": 10,
       "value": "\"Continue\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4820,
+      "offset": 4955,
       "length": 24,
       "value": "\"Open last test results\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4900,
+      "offset": 5035,
       "length": 27,
       "value": "\"Validate your Integration\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 4986,
+      "offset": 5121,
       "length": 90,
       "value": "\"Select the PerimeterX product for which you wish to verifying the Mobile SDK integration\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 5152,
+      "offset": 5287,
       "length": 32,
       "value": "\"Select your tested environment\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 5260,
+      "offset": 5395,
       "length": 79,
       "value": "\"Use your application to generate a typical user flow and trigger URL requests\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 5415,
+      "offset": 5550,
       "length": 85,
       "value": "\"Did you have to solve a challenge\/Captcha? Great! You’re all set and ready to go!\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 5576,
+      "offset": 5711,
       "length": 124,
       "value": "\"No challenge\/Captcha? Shake your device to start the validator app and to let us know that you are not getting a challenge\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 5780,
+      "offset": 5915,
       "length": 32,
       "value": "\"Select your tested environment\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 5892,
+      "offset": 6027,
       "length": 49,
       "value": "\"Use your application to sign in into an account\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6021,
+      "offset": 6156,
       "length": 79,
       "value": "\"Use your application to generate a typical user flow and trigger URL requests\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6180,
+      "offset": 6315,
       "length": 75,
       "value": "\"No feedback from the Doctor? Shake your device to start the validator app\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6321,
+      "offset": 6456,
       "length": 15,
       "value": "\"Let’s start\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6399,
+      "offset": 6534,
       "length": 19,
       "value": "\"How does it work?\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6480,
+      "offset": 6615,
       "length": 6,
       "value": "\"Skip\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6548,
+      "offset": 6683,
       "length": 49,
       "value": "\"Shake your device at any time for help, or see \""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6663,
+      "offset": 6798,
       "length": 14,
       "value": "\"instructions\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6734,
+      "offset": 6869,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6796,
+      "offset": 6931,
       "length": 7,
       "value": "\"START\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6864,
+      "offset": 6999,
       "length": 9,
       "value": "\"TESTING\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 6933,
+      "offset": 7068,
       "length": 22,
       "value": "\"Native app framework\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7016,
+      "offset": 7151,
       "length": 20,
       "value": "\"Web view framework\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7098,
+      "offset": 7233,
       "length": 26,
       "value": "\"Continue to test results\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7190,
+      "offset": 7325,
       "length": 91,
       "value": "\"Make sure that you retrieve the SDK’s http headers and attach them to your URL requests\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7351,
+      "offset": 7486,
       "length": 44,
       "value": "\"Make sure you are signed in with your user\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7465,
+      "offset": 7600,
       "length": 31,
       "value": "\"Try to navigate to some pages\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7563,
+      "offset": 7698,
       "length": 63,
       "value": "\"Try to navigate to some pages until the captcha will be shown\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7697,
+      "offset": 7832,
       "length": 31,
       "value": "\"Try to navigate to some pages\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7790,
+      "offset": 7925,
       "length": 29,
       "value": "\"No Challenge received? 🙁\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7885,
+      "offset": 8020,
       "length": 23,
       "value": "\"Nothing happens? 🙁\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 7959,
+      "offset": 8094,
       "length": 25,
       "value": "\"The tips below may help\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8037,
+      "offset": 8172,
       "length": 18,
       "value": "\"Continue testing\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8104,
+      "offset": 8239,
       "length": 20,
       "value": "\"I’m done testing\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8197,
+      "offset": 8332,
       "length": 66,
       "value": "\"You have successfully completed tests for your native framework.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8336,
+      "offset": 8471,
       "length": 60,
       "value": "\"Your native framework tests failed and were not completed.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8470,
+      "offset": 8605,
       "length": 68,
       "value": "\"You have successfully completed tests for your web view framework.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8612,
+      "offset": 8747,
       "length": 52,
       "value": "\"Your web view tests failed and were not completed.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8727,
+      "offset": 8862,
       "length": 18,
       "value": "\"Continue testing\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8804,
+      "offset": 8939,
       "length": 19,
       "value": "\"Open test results\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8891,
+      "offset": 9026,
       "length": 15,
       "value": "\"Configuration\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 8967,
+      "offset": 9102,
       "length": 22,
       "value": "\"Native app framework\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9051,
+      "offset": 9186,
       "length": 20,
       "value": "\"Web view framework\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9161,
+      "offset": 9296,
       "length": 14,
       "value": "\"Start method\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9264,
+      "offset": 9399,
       "length": 24,
       "value": "\"Configuration settings\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9364,
+      "offset": 9499,
       "length": 17,
       "value": "\"Request headers\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9465,
+      "offset": 9600,
       "length": 19,
       "value": "\"Initiate response\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9559,
+      "offset": 9694,
       "length": 18,
       "value": "\"Mobile challenge\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9660,
+      "offset": 9795,
       "length": 19,
       "value": "\"Display challenge\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9766,
+      "offset": 9901,
       "length": 19,
       "value": "\"Dismiss challenge\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9868,
+      "offset": 10003,
       "length": 20,
       "value": "\"Initiate callbacks\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 9963,
+      "offset": 10098,
       "length": 17,
       "value": "\"User ID was set\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10057,
+      "offset": 10192,
       "length": 15,
       "value": "\"Device's data\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10153,
+      "offset": 10288,
       "length": 29,
       "value": "\"Outgoing URLs were reported\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10265,
+      "offset": 10400,
       "length": 30,
       "value": "\"Additional data was reported\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10376,
+      "offset": 10511,
       "length": 18,
       "value": "\"Mobile challenge\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10478,
+      "offset": 10613,
       "length": 19,
       "value": "\"Display challenge\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10585,
+      "offset": 10720,
       "length": 19,
       "value": "\"Dismiss challenge\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10690,
+      "offset": 10825,
       "length": 23,
       "value": "\"Mobile's data was set\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10770,
+      "offset": 10905,
       "length": 12,
       "value": "\"learn more\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 10878,
+      "offset": 11013,
       "length": 135,
       "value": "\"Checks whether your application calls the SDK’s Start method from the correct location (\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11010,
+      "offset": 11145,
       "length": 1,
       "value": "\").\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11108,
+      "offset": 11243,
       "length": 61,
       "value": "\"Checks whether your application is using the correct AppID.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11251,
+      "offset": 11386,
       "length": 115,
       "value": "\"Checks whether your application is requesting the SDK's HTTP headers (\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11363,
+      "offset": 11498,
       "length": 1,
       "value": "\").\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11456,
+      "offset": 11591,
       "length": 122,
       "value": "\"Checks whether your application is sending the required response to the SDK (\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11575,
+      "offset": 11710,
       "length": 1,
       "value": "\").\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11659,
+      "offset": 11794,
       "length": 77,
       "value": "\"Checks whether the challenge being prompted is compatible with mobile apps.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11825,
+      "offset": 11960,
       "length": 54,
       "value": "\"Checks whether a challenge is displayed to the user.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 11972,
+      "offset": 12107,
       "length": 50,
       "value": "\"Checks whether the challenge has been dismissed.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12111,
+      "offset": 12246,
       "length": 113,
       "value": "\"Checks whether your application is handling callbacks from the SDK (\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12221,
+      "offset": 12356,
       "length": 1,
       "value": "\").\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12305,
+      "offset": 12440,
       "length": 44,
       "value": "\"Check that you are signed in with an user.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12432,
+      "offset": 12567,
       "length": 61,
       "value": "\"Check that a device data was created to enable the service.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12579,
+      "offset": 12714,
       "length": 122,
       "value": "\"Checks whether your application is sending outgoing URL requests to the SDK (\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12698,
+      "offset": 12833,
       "length": 1,
       "value": "\").\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12790,
+      "offset": 12925,
       "length": 116,
       "value": "\"Checks whether your application is sending additional data to the SDK (\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12903,
+      "offset": 13038,
       "length": 1,
       "value": "\").\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 12993,
+      "offset": 13128,
       "length": 63,
       "value": "\"Checks whether the prompt challenge is compatible for mobile.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 13146,
+      "offset": 13281,
       "length": 54,
       "value": "\"Checks whether a challenge is displayed to the user.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 13294,
+      "offset": 13429,
       "length": 50,
       "value": "\"Checks whether the challenge has been dismissed.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 13430,
+      "offset": 13565,
       "length": 57,
       "value": "\"Checks whether the mobile data was set in the web view.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 13588,
+      "offset": 13723,
       "length": 91,
       "value": "\"Make sure you call the SDK’s Start method from the didFinishLaunchingWithOptions method\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 13779,
+      "offset": 13914,
       "length": 103,
       "value": "\"Retrieve your AppID from the PerimeterX portal and compare to the value you have entered in your code\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 13969,
+      "offset": 14104,
       "length": 120,
       "value": "\"Make sure that the AppID in your code is the same as the AppID found in the Applications tab of the PerimeterX portal.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 14184,
+      "offset": 14319,
       "length": 58,
       "value": "\"Make sure you are sending the block response to the SDK.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 14336,
+      "offset": 14471,
       "length": 73,
       "value": "\"Make sure callbacks are properly set where necessary for the SDK events\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 14495,
+      "offset": 14630,
       "length": 61,
       "value": "\"Make sure that the you are signed in into your application.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 14644,
+      "offset": 14779,
       "length": 120,
       "value": "\"Make sure that the AppID in your code is the same as the AppID found in the Applications tab of the PerimeterX portal.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 14855,
+      "offset": 14990,
       "length": 73,
       "value": "\"Make sure your application is sending outgoing URL requests to the SDK.\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 14986,
+      "offset": 15121,
       "length": 15,
       "value": "\"Generated: %@\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15054,
+      "offset": 15189,
       "length": 26,
       "value": "\"Integration test results\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15141,
+      "offset": 15276,
       "length": 15,
       "value": "\"Configuration\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15213,
+      "offset": 15348,
       "length": 12,
       "value": "\"Native app\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15280,
+      "offset": 15415,
       "length": 10,
       "value": "\"Web view\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15345,
+      "offset": 15480,
       "length": 9,
       "value": "\"Details\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15417,
+      "offset": 15552,
       "length": 17,
       "value": "\"Troubleshooting\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15492,
+      "offset": 15627,
       "length": 37,
       "value": "\"Would you like to start a new test?\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15590,
+      "offset": 15725,
       "length": 75,
       "value": "\"Would you like to export your integration test results before proceeding?\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15723,
+      "offset": 15858,
       "length": 6,
       "value": "\"🎈\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15790,
+      "offset": 15925,
       "length": 6,
       "value": "\"💌\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15856,
+      "offset": 15991,
       "length": 18,
       "value": "\"Start a new test\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 15937,
+      "offset": 16072,
       "length": 16,
       "value": "\"Export to JSON\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 16013,
+      "offset": 16148,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 16082,
+      "offset": 16217,
       "length": 18,
       "value": "\"Start a new test\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 16155,
+      "offset": 16290,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 16254,
+      "offset": 16389,
       "length": 167,
       "value": "\"[PerimeterX] Failed to load the Doctor App's assets. Please follow the instructions in the integration guide: \""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Resources\/PXResources.swift",
       "kind": "StringLiteral",
-      "offset": 16420,
+      "offset": 16555,
       "length": 1,
       "value": "\"\""
     },
@@ -6741,6 +6904,13 @@
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "IntegerLiteral",
+      "offset": 1976,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "IntegerLiteral",
       "offset": 609,
       "length": 1,
       "value": "0"
@@ -6811,63 +6981,70 @@
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "IntegerLiteral",
-      "offset": 2063,
+      "offset": 1976,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2188,
       "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "IntegerLiteral",
-      "offset": 2063,
+      "offset": 2188,
       "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "BooleanLiteral",
-      "offset": 8879,
+      "offset": 9004,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "BooleanLiteral",
-      "offset": 8909,
+      "offset": 9034,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "BooleanLiteral",
-      "offset": 9473,
+      "offset": 9598,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "BooleanLiteral",
-      "offset": 9503,
+      "offset": 9628,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "BooleanLiteral",
-      "offset": 10076,
+      "offset": 10201,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "BooleanLiteral",
-      "offset": 10106,
+      "offset": 10231,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Main\/PerimeterX.swift",
       "kind": "BooleanLiteral",
-      "offset": 11473,
+      "offset": 11598,
       "length": 5,
       "value": "false"
     },
@@ -7805,105 +7982,105 @@
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9187,
+      "offset": 9539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "Dictionary",
-      "offset": 9474,
+      "offset": 9826,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10135,
+      "offset": 10487,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10432,
+      "offset": 10784,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11021,
+      "offset": 11373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12984,
+      "offset": 13336,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13037,
+      "offset": 13389,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13231,
+      "offset": 13583,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13598,
+      "offset": 13950,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15269,
+      "offset": 15621,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15444,
+      "offset": 15796,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17650,
+      "offset": 18002,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17777,
+      "offset": 18129,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18463,
+      "offset": 18815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18691,
+      "offset": 19043,
       "length": 4,
       "value": "true"
     },
@@ -11438,126 +11615,126 @@
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11189,
+      "offset": 11374,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12241,
+      "offset": 12426,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12561,
+      "offset": 12746,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13428,
+      "offset": 13613,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15017,
+      "offset": 15202,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15545,
+      "offset": 15730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16417,
+      "offset": 16602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 16882,
+      "offset": 17067,
       "length": 18,
       "value": "\"PXSessionManager\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17120,
+      "offset": 17305,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17159,
+      "offset": 17344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18035,
+      "offset": 18220,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20519,
+      "offset": 20704,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 22044,
+      "offset": 22229,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 22449,
+      "offset": 22634,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23699,
+      "offset": 23884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24721,
+      "offset": 24906,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 25183,
+      "offset": 25368,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 31452,
+      "offset": 31637,
       "length": 4,
       "value": "true"
     },
@@ -11661,59 +11838,80 @@
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 38,
+      "value": "\"PXURLRequestsInterceptorRetryDataKey\""
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1796,
+      "offset": 1994,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1828,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2318,
+      "offset": 2484,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3135,
+      "offset": 3301,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3537,
+      "offset": 3703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4240,
+      "offset": 4530,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5821,
+      "offset": 7063,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7363,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11092,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6393,
-      "length": 4,
-      "value": "true"
+      "kind": "IntegerLiteral",
+      "offset": 12502,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Detections\/Device\/PXDeviceDetectionPolicy.swift",
@@ -13085,7 +13283,7 @@
       "kind": "StringLiteral",
       "offset": 4947,
       "length": 7,
-      "value": "\"3.1.4\""
+      "value": "\"3.1.5\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
@@ -13139,700 +13337,707 @@
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 5807,
+      "offset": 5762,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5846,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 5907,
+      "offset": 5946,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 6239,
+      "offset": 6278,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 6333,
+      "offset": 6372,
       "length": 12,
       "value": "\"$&+=?;,\/:@\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 6374,
+      "offset": 6413,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 6459,
+      "offset": 6498,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 6518,
+      "offset": 6557,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 6574,
+      "offset": 6613,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 6829,
+      "offset": 6868,
       "length": 22,
       "value": "\"\/px\/captcha_callback\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 6978,
+      "offset": 7017,
       "length": 19,
       "value": "\"\/px\/captcha_close\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7076,
+      "offset": 7115,
       "length": 9,
       "value": "\"status=\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7140,
+      "offset": 7179,
       "length": 8,
       "value": "\"token=\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7259,
+      "offset": 7298,
       "length": 13,
       "value": "\"pxChallenge\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7341,
+      "offset": 7380,
       "length": 14,
       "value": "\"pxMobileData\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7450,
+      "offset": 7489,
       "length": 14,
       "value": "\"custom_param\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7543,
+      "offset": 7582,
       "length": 36,
       "value": "\"^\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7567,
+      "offset": 7606,
       "length": 1,
       "value": "\"([1-9]|10)$\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7729,
+      "offset": 7768,
       "length": 7,
       "value": "\"v2.51\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7791,
+      "offset": 7830,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7840,
+      "offset": 7879,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7888,
+      "offset": 7927,
       "length": 8,
       "value": "\"_pxvid\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7947,
+      "offset": 7986,
       "length": 9,
       "value": "\"_pxmvid\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8011,
+      "offset": 8050,
       "length": 8,
       "value": "\"_pxwvm\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8063,
+      "offset": 8102,
       "length": 7,
       "value": "\"_pxhd\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8130,
+      "offset": 8169,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8158,
+      "offset": 8197,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8195,
+      "offset": 8234,
       "length": 18,
       "value": "\"mobile_device_fp\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8265,
+      "offset": 8304,
       "length": 17,
       "value": "\"_px_mobile_data\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 8588,
+      "offset": 8627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "BooleanLiteral",
-      "offset": 8627,
+      "offset": 8666,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8781,
+      "offset": 8820,
       "length": 50,
       "value": "\"sessionStorage.setItem(\"\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8813,
+      "offset": 8852,
       "length": 1,
       "value": "\"\", \"\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8827,
+      "offset": 8866,
       "length": 1,
       "value": "\"\")\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8878,
+      "offset": 8917,
       "length": 16,
       "value": "\"px_mobile_data\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 9022,
+      "offset": 9061,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 9092,
+      "offset": 9131,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 9184,
+      "offset": 9223,
       "length": 30,
       "value": "\"com.perimeterx.mobile_sdk.%@\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 9339,
+      "offset": 9378,
       "length": 68,
       "value": "[\"5792fdea2482cf45cb160bca8bb615a3a33848890e3fdcd29038d9d04a14e9bf\"]"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 9776,
+      "offset": 9815,
       "length": 166,
       "value": "[0x30, 0x82, 0x01, 0x22, 0x30, 0x0d, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x01, 0x01, 0x05, 0x00, 0x03, 0x82, 0x01, 0x0f, 0x00]"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 10009,
+      "offset": 10048,
       "length": 300,
       "value": "[\"\/Applications\/Cydia.app\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/bin\/bash\", \"\/usr\/sbin\/sshd\", \"\/etc\/apt\", \"\/private\/var\/lib\/apt\/\"]"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 10350,
+      "offset": 10389,
       "length": 284,
       "value": "[\"\/bin\/bash\", \"\/Applications\/Cydia.app\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/usr\/sbin\/sshd\", \"\/etc\/apt\"]"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10666,
+      "offset": 10705,
       "length": 16,
       "value": "\"this is a test\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10712,
+      "offset": 10751,
       "length": 24,
       "value": "\"\/private\/jailbreak.txt\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 10828,
+      "offset": 10867,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10903,
+      "offset": 10942,
       "length": 5,
       "value": "\"2.0\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 10975,
+      "offset": 11014,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 11043,
+      "offset": 11082,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11085,
+      "offset": 11124,
       "length": 31,
       "value": "\"didFinishLaunchingWithOptions\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11159,
+      "offset": 11198,
       "length": 5,
       "value": "\"m=1\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11242,
+      "offset": 11281,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11302,
+      "offset": 11341,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11372,
+      "offset": 11411,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11423,
+      "offset": 11462,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11478,
+      "offset": 11517,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11554,
+      "offset": 11593,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11609,
+      "offset": 11648,
       "length": 11,
       "value": "\"%@.\t%@\n\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11680,
+      "offset": 11719,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11738,
+      "offset": 11777,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 11799,
+      "offset": 11838,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 11852,
+      "offset": 11891,
       "length": 4,
       "value": "0.32"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11904,
+      "offset": 11943,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 11950,
+      "offset": 11989,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12023,
+      "offset": 12062,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12033,
+      "offset": 12072,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12044,
+      "offset": 12083,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12054,
+      "offset": 12093,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12132,
+      "offset": 12171,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12141,
+      "offset": 12180,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12153,
+      "offset": 12192,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12163,
+      "offset": 12202,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12244,
+      "offset": 12283,
       "length": 3,
       "value": "-40"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 12318,
+      "offset": 12357,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12358,
+      "offset": 12397,
       "length": 14,
       "value": "\"PhantomJS\/%@\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12414,
+      "offset": 12453,
       "length": 19,
       "value": "\"px:\/\/instructions\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12473,
+      "offset": 12512,
       "length": 20,
       "value": "\"doctor_app_version\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12530,
+      "offset": 12569,
       "length": 106,
       "value": "\"https:\/\/docs.perimeterx.com\/pxconsole\/docs\/ios-how-to-verify-the-integration-in-your-app-with-the-sdk-v3\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12741,
+      "offset": 12780,
       "length": 13,
       "value": "\"\/doctor_app\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12859,
+      "offset": 12898,
       "length": 9,
       "value": "\"\/bundle\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12972,
+      "offset": 13011,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12992,
+      "offset": 13031,
       "length": 1,
       "value": "\"\/doctor_app\/\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13020,
+      "offset": 13059,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13119,
+      "offset": 13158,
       "length": 53,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13139,
+      "offset": 13178,
       "length": 1,
       "value": "\"\/doctor_app_\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13167,
+      "offset": 13206,
       "length": 1,
       "value": "\".aar\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13238,
+      "offset": 13277,
       "length": 130,
       "value": "\"https:\/\/perimeterx.jfrog.io\/artifactory\/files\/doctor-app-assets\/ios\/\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13334,
+      "offset": 13373,
       "length": 1,
       "value": "\"x\/\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 13352,
+      "offset": 13391,
       "length": 1,
       "value": "\"\/doctor_app.aar\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13461,
+      "offset": 13500,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13570,
+      "offset": 13609,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13946,
+      "offset": 13985,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 14003,
+      "offset": 14042,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 14009,
+      "offset": 14048,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14077,
+      "offset": 14116,
       "length": 14,
       "value": "\"PXStoryboard\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14147,
+      "offset": 14186,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14179,
+      "offset": 14218,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14279,
+      "offset": 14318,
       "length": 52,
       "value": "\"https:\/\/docs.perimeterx.com\/pxconsole\/docs\/sdk-ios\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14387,
+      "offset": 14426,
       "length": 19,
       "value": "\"PerimeterX.bundle\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14432,
+      "offset": 14471,
       "length": 13,
       "value": "\"bundle.json\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14527,
+      "offset": 14566,
       "length": 9,
       "value": "\"\/assets\""
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14685,
+      "offset": 14724,
       "length": 4,
       "value": "\"px\""
     },
@@ -15095,6 +15300,48 @@
       "offset": 6242,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+InputStream.swift",
+      "kind": "StringLiteral",
+      "offset": 174,
+      "length": 19,
+      "value": "\"PXDataErrorDomain\""
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+InputStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+InputStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+InputStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+InputStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 762,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/Data+InputStream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 877,
+      "length": 2,
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/brachalederman\/GitHub\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Extensions\/String+Regex.swift",

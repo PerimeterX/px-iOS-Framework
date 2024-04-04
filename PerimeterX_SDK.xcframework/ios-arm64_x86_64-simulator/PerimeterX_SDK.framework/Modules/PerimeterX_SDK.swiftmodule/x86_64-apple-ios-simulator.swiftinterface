@@ -33,6 +33,7 @@ public let PerimeterXErrorDomain: Swift.String
   case requestWasBlocked = 7
   case challengeSolved = 8
   case challengeCancelled = 9
+  case httpBodyInputStreamReadFailed = 10
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -96,6 +97,7 @@ public let PerimeterXErrorDomain: Swift.String
   @objc public var allowDeviceMotionDetection: Swift.Bool
   @objc public var allowJavaScriptEvaluation: Swift.Bool
   @objc public var doctorCheckEnabled: Swift.Bool
+  @objc public static var automaticInterceptorUrlSessionConfiguration: Foundation.URLSessionConfiguration
   @objc override dynamic public init()
   @objc deinit
 }
