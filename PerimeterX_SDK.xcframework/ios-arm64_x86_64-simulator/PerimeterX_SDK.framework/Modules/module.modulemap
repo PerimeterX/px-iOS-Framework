@@ -1,13 +1,4 @@
 framework module PerimeterX_SDK {
-    umbrella header "PerimeterX.h"
-
-    private header "PXCrashReporterProxy.h"
-    
-    export *
-    module * { export * }
-}
-
-module PerimeterX_SDK.Swift {
   header "PerimeterX_SDK-Swift.h"
   requires objc
 }
