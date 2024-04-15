@@ -52,6 +52,8 @@ public let PerimeterXErrorDomain: Swift.String
   @objc optional func perimeterxDidRequestBlocked(url: Foundation.URL?, appId: Swift.String)
   @objc optional func perimeterxDidChallengeSolved(forAppId appId: Swift.String)
   @objc optional func perimeterxDidChallengeCancelled(forAppId appId: Swift.String)
+  @objc optional func perimeterxDidRenderChallenge(forAppId appId: Swift.String)
+  @objc optional func perimeterxDidFailRenderChallenge(forAppId appId: Swift.String)
   @objc optional func perimeterxHeadersWereUpdated(headers: [Swift.String : Swift.String], forAppId appId: Swift.String)
 }
 @_inheritsConvenienceInitializers @objc final public class PerimeterX : ObjectiveC.NSObject {

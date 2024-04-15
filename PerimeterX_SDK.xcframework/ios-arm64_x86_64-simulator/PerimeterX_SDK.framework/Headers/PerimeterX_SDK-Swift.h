@@ -493,6 +493,14 @@ SWIFT_PROTOCOL("_TtP14PerimeterX_SDK18PerimeterXDelegate_")
 /// \param appId The AppID that related to the event.
 ///
 - (void)perimeterxDidChallengeCancelledForAppId:(NSString * _Nonnull)appId;
+/// Called when the challenge was render successfully.
+/// \param appId The AppID that related to the event.
+///
+- (void)perimeterxDidRenderChallengeForAppId:(NSString * _Nonnull)appId;
+/// Called when the challenge was failed to render.
+/// \param appId The AppID that related to the event.
+///
+- (void)perimeterxDidFailRenderChallengeForAppId:(NSString * _Nonnull)appId;
 /// Called when the HTTP headers were changed. You may store and use those headers instead of calling the <code>PerimeterX/headersForURLRequest(forAppId:)</code> function for every URL request.
 /// \param headers HTTP headers.
 ///
@@ -1042,6 +1050,14 @@ SWIFT_PROTOCOL("_TtP14PerimeterX_SDK18PerimeterXDelegate_")
 /// \param appId The AppID that related to the event.
 ///
 - (void)perimeterxDidChallengeCancelledForAppId:(NSString * _Nonnull)appId;
+/// Called when the challenge was render successfully.
+/// \param appId The AppID that related to the event.
+///
+- (void)perimeterxDidRenderChallengeForAppId:(NSString * _Nonnull)appId;
+/// Called when the challenge was failed to render.
+/// \param appId The AppID that related to the event.
+///
+- (void)perimeterxDidFailRenderChallengeForAppId:(NSString * _Nonnull)appId;
 /// Called when the HTTP headers were changed. You may store and use those headers instead of calling the <code>PerimeterX/headersForURLRequest(forAppId:)</code> function for every URL request.
 /// \param headers HTTP headers.
 ///

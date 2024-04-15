@@ -1108,6 +1108,72 @@
           },
           {
             "kind": "Function",
+            "name": "perimeterxDidRenderChallenge",
+            "printedName": "perimeterxDidRenderChallenge(forAppId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PerimeterX_SDK@objc(pl)PerimeterXDelegate(im)perimeterxDidRenderChallengeForAppId:",
+            "mangledName": "$s14PerimeterX_SDK0A9XDelegateP28perimeterxDidRenderChallenge8forAppIdySS_tF",
+            "moduleName": "PerimeterX_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PerimeterX_SDK.PerimeterXDelegate>",
+            "sugared_genericSig": "<Self where Self : PerimeterX_SDK.PerimeterXDelegate>",
+            "protocolReq": true,
+            "objc_name": "perimeterxDidRenderChallengeForAppId:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "perimeterxDidFailRenderChallenge",
+            "printedName": "perimeterxDidFailRenderChallenge(forAppId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PerimeterX_SDK@objc(pl)PerimeterXDelegate(im)perimeterxDidFailRenderChallengeForAppId:",
+            "mangledName": "$s14PerimeterX_SDK0A9XDelegateP32perimeterxDidFailRenderChallenge8forAppIdySS_tF",
+            "moduleName": "PerimeterX_SDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PerimeterX_SDK.PerimeterXDelegate>",
+            "sugared_genericSig": "<Self where Self : PerimeterX_SDK.PerimeterXDelegate>",
+            "protocolReq": true,
+            "objc_name": "perimeterxDidFailRenderChallengeForAppId:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "perimeterxHeadersWereUpdated",
             "printedName": "perimeterxHeadersWereUpdated(headers:forAppId:)",
             "children": [
@@ -6841,98 +6907,154 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 168,
+      "length": 36,
+      "value": "\"PXWebViewChallengeEventErrorDomain\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 292,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 292,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 292,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
       "length": 3,
       "value": "\"c\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 246,
+      "offset": 425,
       "length": 6,
       "value": "\"pxhc\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 288,
+      "offset": 467,
       "length": 6,
       "value": "\"pxcp\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 386,
       "length": 3,
       "value": "\"c\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 246,
+      "offset": 425,
       "length": 6,
       "value": "\"pxhc\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 288,
+      "offset": 467,
       "length": 6,
       "value": "\"pxcp\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 587,
       "length": 14,
       "value": "\"captchaStart\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 643,
+      "length": 17,
+      "value": "\"captchaRendered\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 20,
+      "value": "\"captchaNotRendered\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
       "length": 12,
       "value": "\"captchaEnd\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 587,
       "length": 14,
       "value": "\"captchaStart\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 459,
+      "offset": 643,
+      "length": 17,
+      "value": "\"captchaRendered\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 20,
+      "value": "\"captchaNotRendered\""
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
       "length": 12,
       "value": "\"captchaEnd\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1932,
       "length": 13,
       "value": "\"captchaType\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1086,
+      "offset": 1997,
       "length": 14,
       "value": "\"captchaStage\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1932,
       "length": 13,
       "value": "\"captchaType\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Web_View_Interception\/PXWebViewChallengeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1086,
+      "offset": 1997,
       "length": 14,
       "value": "\"captchaStage\""
     },
@@ -9102,21 +9224,21 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 15445,
+      "offset": 15851,
       "length": 18,
       "value": "\"PXSessionManager\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15851,
+      "offset": 16257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15890,
+      "offset": 16296,
       "length": 5,
       "value": "false"
     },
@@ -10378,7 +10500,7 @@
       "kind": "StringLiteral",
       "offset": 4947,
       "length": 7,
-      "value": "\"3.1.6\""
+      "value": "\"3.2.0\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
