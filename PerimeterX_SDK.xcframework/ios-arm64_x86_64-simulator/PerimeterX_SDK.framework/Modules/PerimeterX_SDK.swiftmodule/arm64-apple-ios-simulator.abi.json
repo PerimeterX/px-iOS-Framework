@@ -9224,21 +9224,21 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 15851,
+      "offset": 15915,
       "length": 18,
       "value": "\"PXSessionManager\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16257,
+      "offset": 16321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16296,
+      "offset": 16360,
       "length": 5,
       "value": "false"
     },
@@ -9889,98 +9889,91 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
-      "length": 21,
-      "value": "\"request was blocked\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
-      "kind": "StringLiteral",
-      "offset": 3248,
+      "offset": 3183,
       "length": 38,
       "value": "\"missing token after challenge solved\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3263,
       "length": 19,
       "value": "\"first touch event\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
+      "offset": 3324,
       "length": 18,
       "value": "\"scheduled report\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3448,
+      "offset": 3383,
       "length": 18,
       "value": "\"capacity is full\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3512,
+      "offset": 3447,
       "length": 24,
       "value": "\"app went to background\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3577,
+      "offset": 3512,
       "length": 18,
       "value": "\"hybrid app event\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3577,
       "length": 24,
       "value": "\"account defender event\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3698,
+      "offset": 3633,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 3676,
       "length": 11,
       "value": "\"unplugged\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3785,
+      "offset": 3720,
       "length": 10,
       "value": "\"charging\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 3759,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3850,
+      "offset": 3785,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3879,
+      "offset": 3814,
       "length": 11,
       "value": "\"sdk_crash\""
     },
@@ -10190,889 +10183,882 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3168,
-      "length": 21,
-      "value": "\"request was blocked\""
-    },
-    {
-      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
-      "kind": "StringLiteral",
-      "offset": 3248,
+      "offset": 3183,
       "length": 38,
       "value": "\"missing token after challenge solved\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3263,
       "length": 19,
       "value": "\"first touch event\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3389,
+      "offset": 3324,
       "length": 18,
       "value": "\"scheduled report\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3448,
+      "offset": 3383,
       "length": 18,
       "value": "\"capacity is full\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3512,
+      "offset": 3447,
       "length": 24,
       "value": "\"app went to background\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3577,
+      "offset": 3512,
       "length": 18,
       "value": "\"hybrid app event\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3577,
       "length": 24,
       "value": "\"account defender event\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3698,
+      "offset": 3633,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 3676,
       "length": 11,
       "value": "\"unplugged\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3785,
+      "offset": 3720,
       "length": 10,
       "value": "\"charging\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3824,
+      "offset": 3759,
       "length": 6,
       "value": "\"full\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3850,
+      "offset": 3785,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 3879,
+      "offset": 3814,
       "length": 11,
       "value": "\"sdk_crash\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4027,
+      "offset": 3962,
       "length": 14,
       "value": "\"crash_reason\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4084,
+      "offset": 4019,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4134,
+      "offset": 4069,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4186,
+      "offset": 4121,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4240,
+      "offset": 4175,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4294,
+      "offset": 4229,
       "length": 18,
       "value": "\"host_app_version\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4297,
       "length": 19,
       "value": "\"bundle_identifier\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4426,
+      "offset": 4361,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4483,
+      "offset": 4418,
       "length": 19,
       "value": "\"device_os_version\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4547,
+      "offset": 4482,
       "length": 14,
       "value": "\"crash_report\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4027,
+      "offset": 3962,
       "length": 14,
       "value": "\"crash_reason\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4084,
+      "offset": 4019,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4134,
+      "offset": 4069,
       "length": 8,
       "value": "\"app_id\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4186,
+      "offset": 4121,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4240,
+      "offset": 4175,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4294,
+      "offset": 4229,
       "length": 18,
       "value": "\"host_app_version\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4297,
       "length": 19,
       "value": "\"bundle_identifier\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4426,
+      "offset": 4361,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4483,
+      "offset": 4418,
       "length": 19,
       "value": "\"device_os_version\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4547,
+      "offset": 4482,
       "length": 14,
       "value": "\"crash_report\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4646,
+      "offset": 4581,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4676,
+      "offset": 4611,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4699,
+      "offset": 4634,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4646,
+      "offset": 4581,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4676,
+      "offset": 4611,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4699,
+      "offset": 4634,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4646,
+      "offset": 4581,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4676,
+      "offset": 4611,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 4699,
+      "offset": 4634,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4909,
+      "offset": 4844,
       "length": 16,
       "value": "\"PerimeterX_SDK\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 4947,
+      "offset": 4882,
       "length": 7,
-      "value": "\"3.2.0\""
+      "value": "\"3.2.1\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 5098,
+      "offset": 5033,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 5144,
+      "offset": 5079,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 5179,
+      "offset": 5114,
       "length": 15,
       "value": "\"collector-%@.\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 5568,
+      "offset": 5503,
       "length": 16,
       "value": "\"\/api\/v1\/mobile\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 5616,
+      "offset": 5551,
       "length": 19,
       "value": "\"\/api\/v1\/collector\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 5714,
+      "offset": 5649,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 5762,
+      "offset": 5697,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 5846,
+      "offset": 5781,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 6278,
+      "offset": 6213,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 6372,
+      "offset": 6307,
       "length": 12,
       "value": "\"$&+=?;,\/:@\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 6413,
+      "offset": 6348,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 6498,
+      "offset": 6433,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 6557,
+      "offset": 6492,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 6613,
+      "offset": 6548,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7115,
+      "offset": 7050,
       "length": 9,
       "value": "\"status=\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7179,
+      "offset": 7114,
       "length": 8,
       "value": "\"token=\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7298,
+      "offset": 7233,
       "length": 13,
       "value": "\"pxChallenge\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7380,
+      "offset": 7315,
       "length": 14,
       "value": "\"pxMobileData\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7489,
+      "offset": 7424,
       "length": 14,
       "value": "\"custom_param\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7768,
+      "offset": 7703,
       "length": 7,
       "value": "\"v2.51\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7830,
+      "offset": 7765,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7879,
+      "offset": 7814,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7927,
+      "offset": 7862,
       "length": 8,
       "value": "\"_pxvid\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 7986,
+      "offset": 7921,
       "length": 9,
       "value": "\"_pxmvid\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8050,
+      "offset": 7985,
       "length": 8,
       "value": "\"_pxwvm\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8102,
+      "offset": 8037,
       "length": 7,
       "value": "\"_pxhd\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8169,
+      "offset": 8104,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8197,
+      "offset": 8132,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8234,
+      "offset": 8169,
       "length": 18,
       "value": "\"mobile_device_fp\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8304,
+      "offset": 8239,
       "length": 17,
       "value": "\"_px_mobile_data\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 8917,
+      "offset": 8852,
       "length": 16,
       "value": "\"px_mobile_data\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 9061,
+      "offset": 8996,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 9131,
+      "offset": 9066,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 9223,
+      "offset": 9158,
       "length": 30,
       "value": "\"com.perimeterx.mobile_sdk.%@\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 9815,
+      "offset": 9750,
       "length": 166,
       "value": "[0x30, 0x82, 0x01, 0x22, 0x30, 0x0d, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x01, 0x01, 0x05, 0x00, 0x03, 0x82, 0x01, 0x0f, 0x00]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 10048,
+      "offset": 9983,
       "length": 300,
       "value": "[\"\/Applications\/Cydia.app\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/bin\/bash\", \"\/usr\/sbin\/sshd\", \"\/etc\/apt\", \"\/private\/var\/lib\/apt\/\"]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "Array",
-      "offset": 10389,
+      "offset": 10324,
       "length": 284,
       "value": "[\"\/bin\/bash\", \"\/Applications\/Cydia.app\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/usr\/sbin\/sshd\", \"\/etc\/apt\"]"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10705,
+      "offset": 10640,
       "length": 16,
       "value": "\"this is a test\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10751,
+      "offset": 10686,
       "length": 24,
       "value": "\"\/private\/jailbreak.txt\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 10867,
+      "offset": 10802,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 10942,
+      "offset": 10877,
       "length": 5,
       "value": "\"2.0\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11014,
+      "offset": 10949,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 11082,
+      "offset": 11017,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11124,
+      "offset": 11059,
       "length": 31,
       "value": "\"didFinishLaunchingWithOptions\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11198,
+      "offset": 11133,
       "length": 5,
       "value": "\"m=1\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11281,
+      "offset": 11216,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11341,
+      "offset": 11276,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11411,
+      "offset": 11346,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11462,
+      "offset": 11397,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11517,
+      "offset": 11452,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11593,
+      "offset": 11528,
       "length": 2,
       "value": "27"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 11648,
+      "offset": 11583,
       "length": 11,
       "value": "\"%@.\t%@\n\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11719,
+      "offset": 11654,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11777,
+      "offset": 11712,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 11838,
+      "offset": 11773,
       "length": 4,
       "value": "0.33"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 11891,
+      "offset": 11826,
       "length": 4,
       "value": "0.32"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 11943,
+      "offset": 11878,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 11989,
+      "offset": 11924,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12062,
+      "offset": 11997,
       "length": 2,
       "value": "65"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12072,
+      "offset": 12007,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12083,
+      "offset": 12018,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12093,
+      "offset": 12028,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12171,
+      "offset": 12106,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12180,
+      "offset": 12115,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12192,
+      "offset": 12127,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12202,
+      "offset": 12137,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 12283,
+      "offset": 12218,
       "length": 3,
       "value": "-40"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 12357,
+      "offset": 12292,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12397,
+      "offset": 12332,
       "length": 14,
       "value": "\"PhantomJS\/%@\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12453,
+      "offset": 12388,
       "length": 19,
       "value": "\"px:\/\/instructions\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12512,
+      "offset": 12447,
       "length": 20,
       "value": "\"doctor_app_version\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 12569,
+      "offset": 12504,
       "length": 106,
       "value": "\"https:\/\/docs.perimeterx.com\/pxconsole\/docs\/ios-how-to-verify-the-integration-in-your-app-with-the-sdk-v3\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13500,
+      "offset": 13435,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "IntegerLiteral",
-      "offset": 13985,
+      "offset": 13920,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 14042,
+      "offset": 13977,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "FloatLiteral",
-      "offset": 14048,
+      "offset": 13983,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14116,
+      "offset": 14051,
       "length": 14,
       "value": "\"PXStoryboard\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14186,
+      "offset": 14121,
       "length": 7,
       "value": "\"false\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14218,
+      "offset": 14153,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14318,
+      "offset": 14253,
       "length": 52,
       "value": "\"https:\/\/docs.perimeterx.com\/pxconsole\/docs\/sdk-ios\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14426,
+      "offset": 14361,
       "length": 19,
       "value": "\"PerimeterX.bundle\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
       "kind": "StringLiteral",
-      "offset": 14471,
+      "offset": 14406,
       "length": 13,
       "value": "\"bundle.json\""
     },
