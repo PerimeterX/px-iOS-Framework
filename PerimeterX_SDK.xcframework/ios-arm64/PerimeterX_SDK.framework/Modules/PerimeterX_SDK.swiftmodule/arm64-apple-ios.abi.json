@@ -7096,35 +7096,35 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSession.swift",
       "kind": "StringLiteral",
-      "offset": 445,
+      "offset": 444,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 555,
+      "offset": 554,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSession.swift",
       "kind": "IntegerLiteral",
-      "offset": 585,
+      "offset": 584,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSession.swift",
       "kind": "IntegerLiteral",
-      "offset": 769,
+      "offset": 768,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 789,
+      "offset": 788,
       "length": 5,
       "value": "false"
     },
@@ -7579,42 +7579,42 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
       "kind": "StringLiteral",
-      "offset": 966,
+      "offset": 965,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 993,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1020,
       "length": 5,
       "value": "\"ttl\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
       "kind": "StringLiteral",
-      "offset": 966,
+      "offset": 965,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 993,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Models\/PXCookie.swift",
       "kind": "StringLiteral",
-      "offset": 1021,
+      "offset": 1020,
       "length": 5,
       "value": "\"ttl\""
     },
@@ -10486,7 +10486,7 @@
       "kind": "StringLiteral",
       "offset": 4882,
       "length": 7,
-      "value": "\"3.2.1\""
+      "value": "\"3.2.2\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
