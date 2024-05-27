@@ -306,6 +306,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 enum PXPolicyUrlRequestInterceptionType : NSInteger;
 @class NSString;
 @class NSURLSessionConfiguration;
+@protocol NSURLSessionDelegate;
+@class NSOperationQueue;
 
 /// The policy that define the behaviour of the SDK.
 SWIFT_CLASS("_TtC14PerimeterX_SDK8PXPolicy")
@@ -329,10 +331,18 @@ SWIFT_CLASS("_TtC14PerimeterX_SDK8PXPolicy")
 @property (nonatomic) BOOL allowJavaScriptEvaluation;
 /// Set this property to <code>true</code> to enable the <code>Doctor App</code> - a tool to verify the integration of the SDK in your app. Make sure to set this property to <code>false</code> before deploying you app to production. Default is <code>false</code>.
 @property (nonatomic) BOOL doctorCheckEnabled;
-/// Tthe <code>URLSessionConfiguration</code> that should be used by the SDK. Default is <code>URLSessionConfiguration.default</code>.
+/// The <code>URLSessionConfiguration</code> that should be used by the SDK. Default is <code>URLSessionConfiguration.default</code>.
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSURLSessionConfiguration * _Nonnull automaticInterceptorUrlSessionConfiguration;)
 + (NSURLSessionConfiguration * _Nonnull)automaticInterceptorUrlSessionConfiguration SWIFT_WARN_UNUSED_RESULT;
 + (void)setAutomaticInterceptorUrlSessionConfiguration:(NSURLSessionConfiguration * _Nonnull)value;
+/// The <code>URLSessionDelegate</code> that should be used by the SDK. Default is <code>nil</code> (the SDK will be the delegate). The SDK implements <code>willPerformHTTPRedirection</code> and <code>needNewBodyStream</code> function in the <code>URLSessionDelegate</code>. However, if your <code>URLSessionDelegate</code> implements other functions, like <code>didReceiveChallenge</code>, then you should provide your own delegate.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <NSURLSessionDelegate> _Nullable automaticInterceptorUrlSessionDelegate;)
++ (id <NSURLSessionDelegate> _Nullable)automaticInterceptorUrlSessionDelegate SWIFT_WARN_UNUSED_RESULT;
++ (void)setAutomaticInterceptorUrlSessionDelegate:(id <NSURLSessionDelegate> _Nullable)value;
+/// The <code>OperationQueue</code> that should be used by the SDK.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSOperationQueue * _Nullable automaticInterceptorDelegateQueue;)
++ (NSOperationQueue * _Nullable)automaticInterceptorDelegateQueue SWIFT_WARN_UNUSED_RESULT;
++ (void)setAutomaticInterceptorDelegateQueue:(NSOperationQueue * _Nullable)value;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

@@ -99,6 +99,8 @@ public let PerimeterXErrorDomain: Swift.String
   @objc public var allowJavaScriptEvaluation: Swift.Bool
   @objc public var doctorCheckEnabled: Swift.Bool
   @objc public static var automaticInterceptorUrlSessionConfiguration: Foundation.URLSessionConfiguration
+  @objc public static var automaticInterceptorUrlSessionDelegate: (any Foundation.URLSessionDelegate)?
+  @objc public static var automaticInterceptorDelegateQueue: Foundation.OperationQueue?
   @objc override dynamic public init()
   @objc deinit
 }

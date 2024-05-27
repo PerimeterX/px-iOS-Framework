@@ -4464,6 +4464,262 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "automaticInterceptorUrlSessionDelegate",
+            "printedName": "automaticInterceptorUrlSessionDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Foundation.URLSessionDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSessionDelegate",
+                    "printedName": "any Foundation.URLSessionDelegate",
+                    "usr": "c:objc(pl)NSURLSessionDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cpy)automaticInterceptorUrlSessionDelegate",
+            "mangledName": "$s14PerimeterX_SDK8PXPolicyC38automaticInterceptorUrlSessionDelegateSo012NSURLSessionH0_pSgvpZ",
+            "moduleName": "PerimeterX_SDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Foundation.URLSessionDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLSessionDelegate",
+                        "printedName": "any Foundation.URLSessionDelegate",
+                        "usr": "c:objc(pl)NSURLSessionDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cm)automaticInterceptorUrlSessionDelegate",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC38automaticInterceptorUrlSessionDelegateSo012NSURLSessionH0_pSgvgZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Foundation.URLSessionDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLSessionDelegate",
+                        "printedName": "any Foundation.URLSessionDelegate",
+                        "usr": "c:objc(pl)NSURLSessionDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cm)setAutomaticInterceptorUrlSessionDelegate:",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC38automaticInterceptorUrlSessionDelegateSo012NSURLSessionH0_pSgvsZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PerimeterX_SDK8PXPolicyC38automaticInterceptorUrlSessionDelegateSo012NSURLSessionH0_pSgvMZ",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC38automaticInterceptorUrlSessionDelegateSo012NSURLSessionH0_pSgvMZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "automaticInterceptorDelegateQueue",
+            "printedName": "automaticInterceptorDelegateQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.OperationQueue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OperationQueue",
+                    "printedName": "Foundation.OperationQueue",
+                    "usr": "c:objc(cs)NSOperationQueue"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cpy)automaticInterceptorDelegateQueue",
+            "mangledName": "$s14PerimeterX_SDK8PXPolicyC33automaticInterceptorDelegateQueueSo011NSOperationG0CSgvpZ",
+            "moduleName": "PerimeterX_SDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.OperationQueue?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OperationQueue",
+                        "printedName": "Foundation.OperationQueue",
+                        "usr": "c:objc(cs)NSOperationQueue"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cm)automaticInterceptorDelegateQueue",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC33automaticInterceptorDelegateQueueSo011NSOperationG0CSgvgZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.OperationQueue?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OperationQueue",
+                        "printedName": "Foundation.OperationQueue",
+                        "usr": "c:objc(cs)NSOperationQueue"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PerimeterX_SDK@objc(cs)PXPolicy(cm)setAutomaticInterceptorDelegateQueue:",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC33automaticInterceptorDelegateQueueSo011NSOperationG0CSgvsZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PerimeterX_SDK8PXPolicyC33automaticInterceptorDelegateQueueSo011NSOperationG0CSgvMZ",
+                "mangledName": "$s14PerimeterX_SDK8PXPolicyC33automaticInterceptorDelegateQueueSo011NSOperationG0CSgvMZ",
+                "moduleName": "PerimeterX_SDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -7075,7 +7331,7 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15621,
+      "offset": 16233,
       "length": 5,
       "value": "false"
     },
@@ -9224,21 +9480,21 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "StringLiteral",
-      "offset": 15915,
+      "offset": 16249,
       "length": 18,
       "value": "\"PXSessionManager\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16321,
+      "offset": 16655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Session\/PXSessionManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16360,
+      "offset": 16694,
       "length": 5,
       "value": "false"
     },
@@ -9280,7 +9536,7 @@
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Requests_Interceptor\/PXURLRequestsInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1994,
+      "offset": 2175,
       "length": 5,
       "value": "false"
     },
@@ -10486,7 +10742,7 @@
       "kind": "StringLiteral",
       "offset": 4882,
       "length": 7,
-      "value": "\"3.2.2\""
+      "value": "\"3.2.3\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
