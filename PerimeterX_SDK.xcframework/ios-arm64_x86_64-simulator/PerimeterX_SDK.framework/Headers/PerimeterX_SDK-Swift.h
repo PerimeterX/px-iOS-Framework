@@ -303,55 +303,47 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-enum PXPolicyUrlRequestInterceptionType : NSInteger;
 @class NSString;
-@class NSURLSessionConfiguration;
-@protocol NSURLSessionDelegate;
-@class NSOperationQueue;
+enum PXPolicyChallengeType : NSInteger;
 
-/// The policy that define the behaviour of the SDK.
+/// The policy that defines the behaviour of the SDK.
 SWIFT_CLASS("_TtC14PerimeterX_SDK8PXPolicy")
 @interface PXPolicy : NSObject <NSCopying>
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
-/// Decide how the SDK should handle URL requests. Default is <code>PXPolicyUrlRequestInterceptionType/intercept</code>.
-@property (nonatomic) enum PXPolicyUrlRequestInterceptionType urlRequestInterceptionType;
-/// This property is relevant only for apps that use <code>WKWebView</code> to load their website (which also protected by PerimeterX). By setting this property to <code>true</code>, the SDK syncs both the native and the web sessions to ensure flawless experience. Default is <code>false</code>. You must set your domains with the <code>PXPolicy/set(domains:forAppId:)</code> function to ensure the hybrid app support is working as expected.
-@property (nonatomic) BOOL hybridAppSupportEnabled;
-/// Use this function to register domains which your app interact with. The SDK (when the <code>PXPolicy/urlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>) is intercepting URL requests to those domains only. If you do not set domain, the SDK will intercept all URL requests. In addition, the SDK (when <code>PXPolicy/hybridAppSupportEnabled</code> is set to <code>true</code>) is setting cookies in your web views in order to sync between the native and the web sessions. However, the SDK will set cookies only for domains that are set in this property. Therefore, you must set your domains to enable hybrid app support. Example: for the website <code>www.google.com</code> you should set the domain: <code>google.com</code>.
-/// \param domains List if your domains.
-///
-/// \param appId The AppID of your account.
-///
-- (void)setWithDomains:(NSSet<NSString *> * _Nonnull)domains forAppId:(NSString * _Nonnull)appId;
-/// Allow the SDK to intercept touches on the screen. Default is <code>true</code>.
-@property (nonatomic) BOOL allowTouchDetection;
-/// Allow the SDK to collect device motion data. This feature is disabled when <code>allowTouchDetection</code> is <code>false</code>. The SDK is creating an instance of <code>CMMotionManager</code> to monitor device’s motion. However, it’s not recommended to have more than one instance in the app. By setting this property to <code>false</code>, the SDK won’t create an instance of <code>CMMotionManager</code>. Default is <code>true</code>.
-@property (nonatomic) BOOL allowDeviceMotionDetection;
-/// Allow the SDK to evaluate JavaScript code in your web views (for hybrid app support). You should disable JavaScript code when using ApplePay in your web view. When you disable JavaScript evaluation, the SDK could store cookies instead (depending on the run time environment). Default is <code>true</code>.
+/// Set of domains that should be intercepted. Empty set means that all domains will be intercepted. Default is an empty set.
+@property (nonatomic, copy) NSSet<NSString *> * _Nonnull domains;
+/// Indication that requests should be intercepted automatically. Specify false for manual requests handling. Default is true. Notice that setting <code>PXPolicy/requestsInterceptedAutomaticallyEnabled-swift.type.property</code> to false override this property.
+@property (nonatomic) BOOL requestsInterceptedAutomaticallyEnabled;
+/// Indication that responses for blocked requests should be delayed until the challenge was solved or cancelled by the user. This property is relevant only when <code>requestsInterceptedAutomaticallyEnabled</code> is true.Notice that enabling this could mean that your request handler code will not be called at all (for example, when the user does not solve the challenge). Default is false.
+@property (nonatomic) BOOL delayResponseUntilChallengeSolvedOrCancelled;
+/// Allow the SDK to evaluate JavaScript code in your web views (for hybrid app support). You should disable JavaScript code when using ApplePay in your web view. When you disable JavaScript evaluation, the SDK could store cookies instead (depending on the run time environment). Default is true.
 @property (nonatomic) BOOL allowJavaScriptEvaluation;
-/// Set this property to <code>true</code> to enable the <code>Doctor App</code> - a tool to verify the integration of the SDK in your app. Make sure to set this property to <code>false</code> before deploying you app to production. Default is <code>false</code>.
-@property (nonatomic) BOOL doctorCheckEnabled;
-/// The <code>URLSessionConfiguration</code> that should be used by the SDK. Default is <code>URLSessionConfiguration.default</code>.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSURLSessionConfiguration * _Nonnull automaticInterceptorUrlSessionConfiguration;)
-+ (NSURLSessionConfiguration * _Nonnull)automaticInterceptorUrlSessionConfiguration SWIFT_WARN_UNUSED_RESULT;
-+ (void)setAutomaticInterceptorUrlSessionConfiguration:(NSURLSessionConfiguration * _Nonnull)value;
-/// The <code>URLSessionDelegate</code> that should be used by the SDK. Default is <code>nil</code> (the SDK will be the delegate). The SDK implements <code>willPerformHTTPRedirection</code> and <code>needNewBodyStream</code> function in the <code>URLSessionDelegate</code>. However, if your <code>URLSessionDelegate</code> implements other functions, like <code>didReceiveChallenge</code>, then you should provide your own delegate.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <NSURLSessionDelegate> _Nullable automaticInterceptorUrlSessionDelegate;)
-+ (id <NSURLSessionDelegate> _Nullable)automaticInterceptorUrlSessionDelegate SWIFT_WARN_UNUSED_RESULT;
-+ (void)setAutomaticInterceptorUrlSessionDelegate:(id <NSURLSessionDelegate> _Nullable)value;
-/// The <code>OperationQueue</code> that should be used by the SDK.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSOperationQueue * _Nullable automaticInterceptorDelegateQueue;)
-+ (NSOperationQueue * _Nullable)automaticInterceptorDelegateQueue SWIFT_WARN_UNUSED_RESULT;
-+ (void)setAutomaticInterceptorDelegateQueue:(NSOperationQueue * _Nullable)value;
+/// Challenge type. Default is <code>PXPolicyChallengeType/webView</code>.
+@property (nonatomic) enum PXPolicyChallengeType challengeType;
+/// Set this to false before calling the <code>PerimeterX/start(appId:delegate:enableDoctorCheck:completion:)</code> fucntion in order to disable requests interception.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL requestsInterceptedAutomaticallyEnabled;)
++ (BOOL)requestsInterceptedAutomaticallyEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setRequestsInterceptedAutomaticallyEnabled:(BOOL)value;
+/// Set this to false before calling the <code>PerimeterX/start(appId:delegate:enableDoctorCheck:completion:)</code> fucntion in order to disable hybrid app suppport.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hybridAppSupportEnabled;)
++ (BOOL)hybridAppSupportEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setHybridAppSupportEnabled:(BOOL)value;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-/// The URL request interception type.
-typedef SWIFT_ENUM(NSInteger, PXPolicyUrlRequestInterceptionType, open) {
-/// The SDK does not intercept URL requests at all.
-  PXPolicyUrlRequestInterceptionTypeNone = 0,
-/// The SDK intercepts URL requests in order to add HTTP headers and handle block responses.
-/// The SDK can intercept those types of requests:
+/// Challenge type.
+typedef SWIFT_ENUM(NSInteger, PXPolicyChallengeType, open) {
+/// WebView challenge.
+  PXPolicyChallengeTypeWebView = 0,
+};
+
+@protocol PerimeterXDelegate;
+@class NSData;
+@class NSURLResponse;
+
+/// PerimeterX main class.
+/// You should interact with it in order to setup and start the SDK.
+/// PerimeterX can intercept those types of requests:
 /// <ol>
 ///   <li>
 ///     URLSession.
@@ -360,141 +352,170 @@ typedef SWIFT_ENUM(NSInteger, PXPolicyUrlRequestInterceptionType, open) {
 ///     WKWebView.
 ///   </li>
 ///   <li>
-///     Any 3rd party library which based on URLSession (like Alamofire).
-///     Notice that the SDK cannot intercept requests from SFSafariViewController.
+///     3rd party libraries like Alamofire.
+///     Notice that the SDK cannot intercept requests in SFSafariViewController.
 ///   </li>
 /// </ol>
-  PXPolicyUrlRequestInterceptionTypeIntercept = 1,
-/// Same as <code>PXPolicyUrlRequestInterceptionType/intercept</code>. The SDK delays the error response to your app until the user solve or cancel the challenge.
-  PXPolicyUrlRequestInterceptionTypeInterceptWithDelayedResponse = 2,
-/// Same as <code>PXPolicyUrlRequestInterceptionType/interceptWithDelayedResponse</code>. When the user solves the challenge, the SDK will send the original request again.
-  PXPolicyUrlRequestInterceptionTypeInterceptAndRetryRequest = 3,
-};
-
-@protocol PerimeterXDelegate;
-@class NSURLResponse;
-@class NSData;
-enum PerimeterXChallengeResult : NSInteger;
-
-/// PerimeterX main class. You should interact with it in order to setup and start the SDK.
 SWIFT_CLASS("_TtC14PerimeterX_SDK10PerimeterX")
 @interface PerimeterX : NSObject
-/// Start the SDK.
-/// Call this function to start th SDK with a single AppID. You should call this function only once. You should call this function only from the main thread. This function may throw an error.
+/// Start the PerimeterX SDK.
+/// The expected behaviour will be started only after the completion callback is called without an error. If you need to be notified that the PerimeterX SDK is ready in other places in your code, you can use <code>addInitializationFinishedCallback(forAppId:callback:)</code> function. This function requires active network connection to be able to start the PerimeterX SDK. If it failed, you should call this function again. You can enable the The Doctor App feature - a tool that helps verify the SDK integration by simulating a typical user flow in the application.
 /// \param appId The AppID of your account.
 ///
 /// \param delegate A delegate object that conform to <code>PerimeterXDelegate</code> protocol.
 ///
-/// \param policy The policy object that config the SDK.
+/// \param enableDoctorCheck Should start the Doctor App feature. Default is false.
 ///
-+ (BOOL)startWithAppId:(NSString * _Nonnull)appId delegate:(id <PerimeterXDelegate> _Nullable)delegate policy:(PXPolicy * _Nonnull)policy error:(NSError * _Nullable * _Nullable)error;
-/// Start the SDK.
-/// Call this function to start th SDK with multiple AppIDs. You should call this function only once. You should call this function only from the main thread. This function may throw an error.
-/// \param appIds The list of AppIDs for your account.
+/// \param completion A completion block. Returns true if the initialization finished successfully, otherwise returns false and an error.
 ///
-/// \param delegate A delegate object that conform to <code>PerimeterXDelegate</code> protocol.
-///
-/// \param policy The policy object that config the SDK.
-///
-+ (BOOL)startWithAppIds:(NSArray<NSString *> * _Nonnull)appIds delegate:(id <PerimeterXDelegate> _Nullable)delegate policy:(PXPolicy * _Nonnull)policy error:(NSError * _Nullable * _Nullable)error;
-/// Get the VID for given AppID.
++ (void)startWithAppId:(NSString * _Nonnull)appId delegate:(id <PerimeterXDelegate> _Nullable)delegate enableDoctorCheck:(BOOL)enableDoctorCheck completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+/// Turn off hybrid app support. You should call this function when you don’t need the hybrid app support in your app. In order that the hybrid app support will be turned off, you must call this function before calling the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function.
++ (void)turnOffHybridAppSupport;
+/// Add a callback for the start flow.
+/// Use this function to get notified when the PerimeterX SDK is ready for the given AppID. If it’s already ready, the callback will be called immediately. You should call this function only after you have already called the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function for the given AppID.
 /// \param appId The AppID of your account. Ignore this param if you use only one AppID.
 ///
-+ (NSString * _Nullable)vidForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
-/// Returns HTTP headers that should be added to the URL request.
-/// This function should be used only when the <code>PXPolicy/urlRequestInterceptionType</code> is set to <code>PXPolicyUrlRequestInterceptionType/none</code>.
-/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+/// \param callback A callback block. Called when the PerimeterX is ready.
 ///
-+ (NSDictionary<NSString *, NSString *> * _Nullable)headersForURLRequestForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
-/// This function checks if the SDK can handle the URL request’s response and presents the block screen.
-/// Returns <code>true</code> if the PerimeterX’s payload in the response can be handled by the SDK. This function does not present the block screen.
-/// \param response The response that was received from the URL request.
++ (void)addInitializationFinishedCallbackForAppId:(NSString * _Nullable)appId callback:(void (^ _Nonnull)(void))callback;
+/// Set policy for given AppID.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
+/// \param policy The policy.
 ///
-/// \param data The data that was received from the URL request.
+/// \param appId The AppID to associate the policy with. Ignore this param if you use only one AppID.
 ///
-/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+/// \param completion A completion block. Called after the new policy was set.
 ///
-+ (BOOL)canHandleResponseWithResponse:(NSURLResponse * _Nonnull)response data:(NSData * _Nonnull)data forAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
-/// This function handles the URL request’s response and presents the block screen, if necessary.
-/// Returns <code>true</code> if the PerimeterX’s payload in the response was handled by the SDK. This function should be used only when the <code>PXPolicyUrlRequestInterceptionType</code> is set to <code>PXPolicyUrlRequestInterceptionType/none</code> in the policy.
-/// \param response The response that was received from the URL request.
-///
-/// \param data The data that was received from the URL request.
-///
-/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
-///
-/// \param callback The callback that indicate the challenge’s result. The callback will be called once the user solved (or cancelled)  the challenge. You may use this to retry the URL request.
-///
-+ (BOOL)handleResponseWithResponse:(NSURLResponse * _Nonnull)response data:(NSData * _Nonnull)data forAppId:(NSString * _Nullable)appId callback:(void (^ _Nullable)(enum PerimeterXChallengeResult))callback SWIFT_WARN_UNUSED_RESULT;
++ (void)setPolicyWithPolicy:(PXPolicy * _Nonnull)policy forAppId:(NSString * _Nullable)appId completion:(void (^ _Nullable)(void))completion;
 /// Set custom parameters for given AppID.
-/// You must call the <code>start(appId:delegate:policy:)</code> function before calling this function, otherwise it will throw an error.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
 /// \param parameters Custom parameters. Each key must be in the following format: “custom_param[x]” where [x] is a number between 1-10.
 ///
 /// \param appId The AppID to associate the custom parameters with. Ignore this param if you use only one AppID.
 ///
-+ (BOOL)setCustomParametersWithParameters:(NSDictionary<NSString *, NSString *> * _Nonnull)parameters forAppId:(NSString * _Nullable)appId error:(NSError * _Nullable * _Nullable)error;
-/// Returns <code>true</code> if the error is <code>PerimeterXErrorCode/requestWasBlocked</code> error.
-/// This kind error should returned when the <code>PXPolicyUrlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>.
+/// \param completion A completion block. Called after custom parameters were set.
+///
++ (void)setCustomParametersWithParameters:(NSDictionary<NSString *, NSString *> * _Nonnull)parameters forAppId:(NSString * _Nullable)appId completion:(void (^ _Nullable)(void))completion;
+/// Get the VID for given AppID.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
++ (NSString * _Nullable)vidForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
+/// Register a callback that will be called after a request was blocked.
+/// Returns the registration ID. Use it to unregister with <code>unregisterCallbackForRequestBlockedEvent(forAppId:registrationId:)</code> function.
+/// This function returns nil on failure.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param callback The callback to register.
+///
++ (NSString * _Nullable)registerCallbackForRequestBlockedEventForAppId:(NSString * _Nullable)appId callback:(void (^ _Nonnull)(void))callback SWIFT_WARN_UNUSED_RESULT;
+/// Unregister the callback for request blocked that is associated with the given registration ID.
+/// Registration ID is provided from the <code>registerCallbackForRequestBlockedEvent(forAppId:callback:)</code> function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param registrationId The registration ID.
+///
++ (void)unregisterCallbackForRequestBlockedEventForAppId:(NSString * _Nullable)appId registrationId:(NSString * _Nonnull)registrationId;
+/// Register a callback that will be called after the user solved the challenge.
+/// Returns the registration ID. Use it to unregister with <code>unregisterCallbackForChallengeSolvedEvent(forAppId:registrationId:)</code> function.
+/// This function returns nil on failure.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param callback The callback to register.
+///
++ (NSString * _Nullable)registerCallbackForChallengeSolvedEventForAppId:(NSString * _Nullable)appId callback:(void (^ _Nonnull)(void))callback SWIFT_WARN_UNUSED_RESULT;
+/// Unregister the callback for challenge solved that is associated with the given registration ID.
+/// Registration ID is provided from the <code>registerCallbackForChallengeSolvedEvent(forAppId:callback:)</code> function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param registrationId The registration ID.
+///
++ (void)unregisterCallbackForChallengeSolvedEventForAppId:(NSString * _Nullable)appId registrationId:(NSString * _Nonnull)registrationId;
+/// Register a callback that will be called after the user cancelled the challenge.
+/// Returns the registration ID. Use it to unregister with <code>unregisterCallbackForChallengeCancelledEvent(forAppId:registrationId:)</code> function.
+/// This function returns nil on failure.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param callback The callback to register.
+///
++ (NSString * _Nullable)registerCallbackForChallengeCancelledEventForAppId:(NSString * _Nullable)appId callback:(void (^ _Nonnull)(void))callback SWIFT_WARN_UNUSED_RESULT;
+/// Unregister the callback for challenge cancelled that is associated with the given registration ID.
+/// Registration ID is provided from the <code>registerCallbackForRequestCancelledEvent(forAppId:callback:)</code> function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param registrationId The registration ID.
+///
++ (void)unregisterCallbackForChallengeCancelledEventForAppId:(NSString * _Nullable)appId registrationId:(NSString * _Nonnull)registrationId;
+/// Returns HTTP headers that should be added to the URL request.
+/// This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
++ (NSDictionary<NSString *, NSString *> * _Nonnull)headersForURLRequestForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
+/// This function checks if the SDK can handle the URL request’s response and presents the block screen.
+/// Returns true if the PerimeterX’s payload in the response can be handled by the SDK. This function does not present the block screen. This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param data The data that was received from the URL request.
+///
+/// \param response The response that was received from the URL request.
+///
++ (BOOL)canHandleResponseForAppId:(NSString * _Nullable)appId data:(NSData * _Nonnull)data response:(NSURLResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
+/// This function handles the URL request’s response and presents the block screen, if necessary.
+/// Returns true if the PerimeterX’s payload in the response was handled by the SDK. This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param data The data that was received from the URL request.
+///
+/// \param response The response that was received from the URL request.
+///
++ (BOOL)handleResponseForAppId:(NSString * _Nullable)appId data:(NSData * _Nonnull)data response:(NSURLResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
+/// Returns true if the error is <code>PerimeterXErrorCode/requestWasBlocked</code> error.
+/// This kind error should returned when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to true.
 /// \param error The error to check
 ///
 + (BOOL)isRequestBlockedErrorWithError:(NSError * _Nonnull)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns <code>true</code> if the error is <code>PerimeterXErrorCode/challengeSolved</code> error.
-/// This kind error should returned when the <code>PXPolicyUrlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>.
+/// Returns true if the error is <code>PerimeterXErrorCode/challengeSolved</code> error.
+/// This kind error should returned when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to true.
 /// \param error The error to check
 ///
 + (BOOL)isChallengeSolvedErrorWithError:(NSError * _Nonnull)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns <code>true</code> if the error is <code>PerimeterXErrorCode/challengeCancelled</code> error.
-/// This kind error should returned when the <code>PXPolicyUrlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>.
+/// Returns true if the error is <code>PerimeterXErrorCode/challengeCancelled</code> error.
+/// This kind error should returned when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to true.
 /// \param error The error to check
 ///
 + (BOOL)isChallengeCancelledErrorWithError:(NSError * _Nonnull)error SWIFT_WARN_UNUSED_RESULT;
-/// Calling this method with non-<code>null</code> <code>userId</code> will start the Account Defender feature.
-/// You must call the <code>start(appId:delegate:policy:)</code> function before calling this function.
+/// Calling this method with non-null userId will start the Account Defender feature.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
 /// \param userId The user ID. You may provide nil in case the user is not logged in anymore.
 ///
 /// \param appId The AppID of your account. Ignore this param if you use only one AppID.
 ///
-+ (BOOL)setUserIdWithUserId:(NSString * _Nullable)userId forAppId:(NSString * _Nullable)appId error:(NSError * _Nullable * _Nullable)error;
++ (void)setUserIdWithUserId:(NSString * _Nullable)userId forAppId:(NSString * _Nullable)appId;
 /// Provide outgoing URL request to the Account Defender feature.
-/// You must call the <code>setUserId(userId:forAppId:)</code> function before calling this function. If the <code>PXPolicyUrlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>, you should not need to use this function (it will be called automatically by the SDK).
+/// You must call the <code>setUserId(userId:forAppId:)</code> function before calling this function. If you are using the automatic interceptor you should not need to use this function (it will be called automatically by the interceptor).
 /// \param url The URL.
 ///
 /// \param appId The AppID of your account. Ignore this param if you use only one AppID.
 ///
-+ (BOOL)registerOutgoingUrlRequestWithUrl:(NSString * _Nonnull)url forAppId:(NSString * _Nullable)appId error:(NSError * _Nullable * _Nullable)error;
-/// Set additional data that support Account Defender for given AppID.
-/// You must call the <code>start(appId:delegate:policy:)</code> function before calling this function.
-/// \param parameters Custom parameters.
-///
-/// \param appId The AppID to associate the custom parameters with. Ignore this param if you use only one AppID.
-///
-+ (BOOL)setAdditionalDataWithParameters:(NSDictionary<NSString *, NSString *> * _Nonnull)parameters forAppId:(NSString * _Nullable)appId error:(NSError * _Nullable * _Nullable)error;
++ (void)registerOutgoingUrlRequestWithUrl:(NSString * _Nonnull)url forAppId:(NSString * _Nullable)appId;
 /// Returns the PerimeterX SDK version.
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-/// Challenge result.
-typedef SWIFT_ENUM(NSInteger, PerimeterXChallengeResult, open) {
-/// Challenge was solved.
-  PerimeterXChallengeResultSolved = 0,
-/// Challenge was cancelled.
-  PerimeterXChallengeResultCancelled = 1,
-};
-
-@class NSURL;
 
 /// PerimeterX protocol
 SWIFT_PROTOCOL("_TtP14PerimeterX_SDK18PerimeterXDelegate_")
 @protocol PerimeterXDelegate <NSObject>
-@optional
 /// Called when a request was blocked.
 /// \param appId The AppID that related to the event.
 ///
-/// \param url The request’s URL that was blocked. Will be <code>nil</code> when <code>PXPolicy/urlRequestInterceptionType</code> is set to <code>PXPolicyUrlRequestInterceptionType/none</code> in the policy.
-///
-- (void)perimeterxDidRequestBlockedWithUrl:(NSURL * _Nullable)url appId:(NSString * _Nonnull)appId;
+- (void)perimeterxDidRequestBlockedForAppId:(NSString * _Nonnull)appId;
 /// Called when the challenge was solved.
 /// \param appId The AppID that related to the event.
 ///
@@ -503,48 +524,7 @@ SWIFT_PROTOCOL("_TtP14PerimeterX_SDK18PerimeterXDelegate_")
 /// \param appId The AppID that related to the event.
 ///
 - (void)perimeterxDidChallengeCancelledForAppId:(NSString * _Nonnull)appId;
-/// Called when the challenge was render successfully.
-/// \param appId The AppID that related to the event.
-///
-- (void)perimeterxDidRenderChallengeForAppId:(NSString * _Nonnull)appId;
-/// Called when the challenge was failed to render.
-/// \param appId The AppID that related to the event.
-///
-- (void)perimeterxDidFailRenderChallengeForAppId:(NSString * _Nonnull)appId;
-/// Called when the HTTP headers were changed. You may store and use those headers instead of calling the <code>PerimeterX/headersForURLRequest(forAppId:)</code> function for every URL request.
-/// \param headers HTTP headers.
-///
-/// \param appId The AppID that related to the event.
-///
-- (void)perimeterxHeadersWereUpdatedWithHeaders:(NSDictionary<NSString *, NSString *> * _Nonnull)headers forAppId:(NSString * _Nonnull)appId;
 @end
-
-/// SDK’s error codes. This will be included in errors objects that generated by the SDK.
-typedef SWIFT_ENUM(NSInteger, PerimeterXErrorCode, open) {
-/// <code>PerimeterX/start(appId:delegate:policy:)</code> or <code>PerimeterX/start(appIds:delegate:policy:)</code> functions were called without any AppID.
-  PerimeterXErrorCodeMissingAppId = 0,
-/// <code>PerimeterX/start(appId:delegate:policy:)</code> or <code>PerimeterX/start(appIds:delegate:policy:)</code> functions were called with invalid AppID.
-  PerimeterXErrorCodeInvalidAppId = 1,
-/// <code>PerimeterX/start(appId:delegate:policy:)</code> or <code>PerimeterX/start(appIds:delegate:policy:)</code> functions were called not on the main thread.
-  PerimeterXErrorCodeStartNotCalledOnMainThread = 2,
-/// <code>PerimeterX/start(appId:delegate:policy:)</code> or <code>PerimeterX/start(appIds:delegate:policy:)</code> functions were called more than once.
-  PerimeterXErrorCodeStartCalledMoreThanOnce = 3,
-/// The SDK failed to generate token. Make sure the AppID is set correctly.
-  PerimeterXErrorCodeTokenWasNotGenerated = 4,
-/// The SDK failed to perform the operation. Make sure to call the <code>PerimeterX/start(appId:delegate:policy:)</code> function.
-  PerimeterXErrorCodeStartWasNotCalled = 5,
-/// Internal error in the SDK.
-  PerimeterXErrorCodeInternalError = 6,
-/// URL request was blocked by PerimeterX.
-  PerimeterXErrorCodeRequestWasBlocked = 7,
-/// Challenge was solved by the user.
-  PerimeterXErrorCodeChallengeSolved = 8,
-/// Challenge was cancelled.
-  PerimeterXErrorCodeChallengeCancelled = 9,
-/// Failed to read body from input stream of the request.
-  PerimeterXErrorCodeHttpBodyInputStreamReadFailed = 10,
-};
-
 
 
 
@@ -870,55 +850,47 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-enum PXPolicyUrlRequestInterceptionType : NSInteger;
 @class NSString;
-@class NSURLSessionConfiguration;
-@protocol NSURLSessionDelegate;
-@class NSOperationQueue;
+enum PXPolicyChallengeType : NSInteger;
 
-/// The policy that define the behaviour of the SDK.
+/// The policy that defines the behaviour of the SDK.
 SWIFT_CLASS("_TtC14PerimeterX_SDK8PXPolicy")
 @interface PXPolicy : NSObject <NSCopying>
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
-/// Decide how the SDK should handle URL requests. Default is <code>PXPolicyUrlRequestInterceptionType/intercept</code>.
-@property (nonatomic) enum PXPolicyUrlRequestInterceptionType urlRequestInterceptionType;
-/// This property is relevant only for apps that use <code>WKWebView</code> to load their website (which also protected by PerimeterX). By setting this property to <code>true</code>, the SDK syncs both the native and the web sessions to ensure flawless experience. Default is <code>false</code>. You must set your domains with the <code>PXPolicy/set(domains:forAppId:)</code> function to ensure the hybrid app support is working as expected.
-@property (nonatomic) BOOL hybridAppSupportEnabled;
-/// Use this function to register domains which your app interact with. The SDK (when the <code>PXPolicy/urlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>) is intercepting URL requests to those domains only. If you do not set domain, the SDK will intercept all URL requests. In addition, the SDK (when <code>PXPolicy/hybridAppSupportEnabled</code> is set to <code>true</code>) is setting cookies in your web views in order to sync between the native and the web sessions. However, the SDK will set cookies only for domains that are set in this property. Therefore, you must set your domains to enable hybrid app support. Example: for the website <code>www.google.com</code> you should set the domain: <code>google.com</code>.
-/// \param domains List if your domains.
-///
-/// \param appId The AppID of your account.
-///
-- (void)setWithDomains:(NSSet<NSString *> * _Nonnull)domains forAppId:(NSString * _Nonnull)appId;
-/// Allow the SDK to intercept touches on the screen. Default is <code>true</code>.
-@property (nonatomic) BOOL allowTouchDetection;
-/// Allow the SDK to collect device motion data. This feature is disabled when <code>allowTouchDetection</code> is <code>false</code>. The SDK is creating an instance of <code>CMMotionManager</code> to monitor device’s motion. However, it’s not recommended to have more than one instance in the app. By setting this property to <code>false</code>, the SDK won’t create an instance of <code>CMMotionManager</code>. Default is <code>true</code>.
-@property (nonatomic) BOOL allowDeviceMotionDetection;
-/// Allow the SDK to evaluate JavaScript code in your web views (for hybrid app support). You should disable JavaScript code when using ApplePay in your web view. When you disable JavaScript evaluation, the SDK could store cookies instead (depending on the run time environment). Default is <code>true</code>.
+/// Set of domains that should be intercepted. Empty set means that all domains will be intercepted. Default is an empty set.
+@property (nonatomic, copy) NSSet<NSString *> * _Nonnull domains;
+/// Indication that requests should be intercepted automatically. Specify false for manual requests handling. Default is true. Notice that setting <code>PXPolicy/requestsInterceptedAutomaticallyEnabled-swift.type.property</code> to false override this property.
+@property (nonatomic) BOOL requestsInterceptedAutomaticallyEnabled;
+/// Indication that responses for blocked requests should be delayed until the challenge was solved or cancelled by the user. This property is relevant only when <code>requestsInterceptedAutomaticallyEnabled</code> is true.Notice that enabling this could mean that your request handler code will not be called at all (for example, when the user does not solve the challenge). Default is false.
+@property (nonatomic) BOOL delayResponseUntilChallengeSolvedOrCancelled;
+/// Allow the SDK to evaluate JavaScript code in your web views (for hybrid app support). You should disable JavaScript code when using ApplePay in your web view. When you disable JavaScript evaluation, the SDK could store cookies instead (depending on the run time environment). Default is true.
 @property (nonatomic) BOOL allowJavaScriptEvaluation;
-/// Set this property to <code>true</code> to enable the <code>Doctor App</code> - a tool to verify the integration of the SDK in your app. Make sure to set this property to <code>false</code> before deploying you app to production. Default is <code>false</code>.
-@property (nonatomic) BOOL doctorCheckEnabled;
-/// The <code>URLSessionConfiguration</code> that should be used by the SDK. Default is <code>URLSessionConfiguration.default</code>.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSURLSessionConfiguration * _Nonnull automaticInterceptorUrlSessionConfiguration;)
-+ (NSURLSessionConfiguration * _Nonnull)automaticInterceptorUrlSessionConfiguration SWIFT_WARN_UNUSED_RESULT;
-+ (void)setAutomaticInterceptorUrlSessionConfiguration:(NSURLSessionConfiguration * _Nonnull)value;
-/// The <code>URLSessionDelegate</code> that should be used by the SDK. Default is <code>nil</code> (the SDK will be the delegate). The SDK implements <code>willPerformHTTPRedirection</code> and <code>needNewBodyStream</code> function in the <code>URLSessionDelegate</code>. However, if your <code>URLSessionDelegate</code> implements other functions, like <code>didReceiveChallenge</code>, then you should provide your own delegate.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <NSURLSessionDelegate> _Nullable automaticInterceptorUrlSessionDelegate;)
-+ (id <NSURLSessionDelegate> _Nullable)automaticInterceptorUrlSessionDelegate SWIFT_WARN_UNUSED_RESULT;
-+ (void)setAutomaticInterceptorUrlSessionDelegate:(id <NSURLSessionDelegate> _Nullable)value;
-/// The <code>OperationQueue</code> that should be used by the SDK.
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSOperationQueue * _Nullable automaticInterceptorDelegateQueue;)
-+ (NSOperationQueue * _Nullable)automaticInterceptorDelegateQueue SWIFT_WARN_UNUSED_RESULT;
-+ (void)setAutomaticInterceptorDelegateQueue:(NSOperationQueue * _Nullable)value;
+/// Challenge type. Default is <code>PXPolicyChallengeType/webView</code>.
+@property (nonatomic) enum PXPolicyChallengeType challengeType;
+/// Set this to false before calling the <code>PerimeterX/start(appId:delegate:enableDoctorCheck:completion:)</code> fucntion in order to disable requests interception.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL requestsInterceptedAutomaticallyEnabled;)
++ (BOOL)requestsInterceptedAutomaticallyEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setRequestsInterceptedAutomaticallyEnabled:(BOOL)value;
+/// Set this to false before calling the <code>PerimeterX/start(appId:delegate:enableDoctorCheck:completion:)</code> fucntion in order to disable hybrid app suppport.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL hybridAppSupportEnabled;)
++ (BOOL)hybridAppSupportEnabled SWIFT_WARN_UNUSED_RESULT;
++ (void)setHybridAppSupportEnabled:(BOOL)value;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-/// The URL request interception type.
-typedef SWIFT_ENUM(NSInteger, PXPolicyUrlRequestInterceptionType, open) {
-/// The SDK does not intercept URL requests at all.
-  PXPolicyUrlRequestInterceptionTypeNone = 0,
-/// The SDK intercepts URL requests in order to add HTTP headers and handle block responses.
-/// The SDK can intercept those types of requests:
+/// Challenge type.
+typedef SWIFT_ENUM(NSInteger, PXPolicyChallengeType, open) {
+/// WebView challenge.
+  PXPolicyChallengeTypeWebView = 0,
+};
+
+@protocol PerimeterXDelegate;
+@class NSData;
+@class NSURLResponse;
+
+/// PerimeterX main class.
+/// You should interact with it in order to setup and start the SDK.
+/// PerimeterX can intercept those types of requests:
 /// <ol>
 ///   <li>
 ///     URLSession.
@@ -927,141 +899,170 @@ typedef SWIFT_ENUM(NSInteger, PXPolicyUrlRequestInterceptionType, open) {
 ///     WKWebView.
 ///   </li>
 ///   <li>
-///     Any 3rd party library which based on URLSession (like Alamofire).
-///     Notice that the SDK cannot intercept requests from SFSafariViewController.
+///     3rd party libraries like Alamofire.
+///     Notice that the SDK cannot intercept requests in SFSafariViewController.
 ///   </li>
 /// </ol>
-  PXPolicyUrlRequestInterceptionTypeIntercept = 1,
-/// Same as <code>PXPolicyUrlRequestInterceptionType/intercept</code>. The SDK delays the error response to your app until the user solve or cancel the challenge.
-  PXPolicyUrlRequestInterceptionTypeInterceptWithDelayedResponse = 2,
-/// Same as <code>PXPolicyUrlRequestInterceptionType/interceptWithDelayedResponse</code>. When the user solves the challenge, the SDK will send the original request again.
-  PXPolicyUrlRequestInterceptionTypeInterceptAndRetryRequest = 3,
-};
-
-@protocol PerimeterXDelegate;
-@class NSURLResponse;
-@class NSData;
-enum PerimeterXChallengeResult : NSInteger;
-
-/// PerimeterX main class. You should interact with it in order to setup and start the SDK.
 SWIFT_CLASS("_TtC14PerimeterX_SDK10PerimeterX")
 @interface PerimeterX : NSObject
-/// Start the SDK.
-/// Call this function to start th SDK with a single AppID. You should call this function only once. You should call this function only from the main thread. This function may throw an error.
+/// Start the PerimeterX SDK.
+/// The expected behaviour will be started only after the completion callback is called without an error. If you need to be notified that the PerimeterX SDK is ready in other places in your code, you can use <code>addInitializationFinishedCallback(forAppId:callback:)</code> function. This function requires active network connection to be able to start the PerimeterX SDK. If it failed, you should call this function again. You can enable the The Doctor App feature - a tool that helps verify the SDK integration by simulating a typical user flow in the application.
 /// \param appId The AppID of your account.
 ///
 /// \param delegate A delegate object that conform to <code>PerimeterXDelegate</code> protocol.
 ///
-/// \param policy The policy object that config the SDK.
+/// \param enableDoctorCheck Should start the Doctor App feature. Default is false.
 ///
-+ (BOOL)startWithAppId:(NSString * _Nonnull)appId delegate:(id <PerimeterXDelegate> _Nullable)delegate policy:(PXPolicy * _Nonnull)policy error:(NSError * _Nullable * _Nullable)error;
-/// Start the SDK.
-/// Call this function to start th SDK with multiple AppIDs. You should call this function only once. You should call this function only from the main thread. This function may throw an error.
-/// \param appIds The list of AppIDs for your account.
+/// \param completion A completion block. Returns true if the initialization finished successfully, otherwise returns false and an error.
 ///
-/// \param delegate A delegate object that conform to <code>PerimeterXDelegate</code> protocol.
-///
-/// \param policy The policy object that config the SDK.
-///
-+ (BOOL)startWithAppIds:(NSArray<NSString *> * _Nonnull)appIds delegate:(id <PerimeterXDelegate> _Nullable)delegate policy:(PXPolicy * _Nonnull)policy error:(NSError * _Nullable * _Nullable)error;
-/// Get the VID for given AppID.
++ (void)startWithAppId:(NSString * _Nonnull)appId delegate:(id <PerimeterXDelegate> _Nullable)delegate enableDoctorCheck:(BOOL)enableDoctorCheck completion:(void (^ _Nonnull)(BOOL, NSError * _Nullable))completion;
+/// Turn off hybrid app support. You should call this function when you don’t need the hybrid app support in your app. In order that the hybrid app support will be turned off, you must call this function before calling the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function.
++ (void)turnOffHybridAppSupport;
+/// Add a callback for the start flow.
+/// Use this function to get notified when the PerimeterX SDK is ready for the given AppID. If it’s already ready, the callback will be called immediately. You should call this function only after you have already called the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function for the given AppID.
 /// \param appId The AppID of your account. Ignore this param if you use only one AppID.
 ///
-+ (NSString * _Nullable)vidForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
-/// Returns HTTP headers that should be added to the URL request.
-/// This function should be used only when the <code>PXPolicy/urlRequestInterceptionType</code> is set to <code>PXPolicyUrlRequestInterceptionType/none</code>.
-/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+/// \param callback A callback block. Called when the PerimeterX is ready.
 ///
-+ (NSDictionary<NSString *, NSString *> * _Nullable)headersForURLRequestForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
-/// This function checks if the SDK can handle the URL request’s response and presents the block screen.
-/// Returns <code>true</code> if the PerimeterX’s payload in the response can be handled by the SDK. This function does not present the block screen.
-/// \param response The response that was received from the URL request.
++ (void)addInitializationFinishedCallbackForAppId:(NSString * _Nullable)appId callback:(void (^ _Nonnull)(void))callback;
+/// Set policy for given AppID.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
+/// \param policy The policy.
 ///
-/// \param data The data that was received from the URL request.
+/// \param appId The AppID to associate the policy with. Ignore this param if you use only one AppID.
 ///
-/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+/// \param completion A completion block. Called after the new policy was set.
 ///
-+ (BOOL)canHandleResponseWithResponse:(NSURLResponse * _Nonnull)response data:(NSData * _Nonnull)data forAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
-/// This function handles the URL request’s response and presents the block screen, if necessary.
-/// Returns <code>true</code> if the PerimeterX’s payload in the response was handled by the SDK. This function should be used only when the <code>PXPolicyUrlRequestInterceptionType</code> is set to <code>PXPolicyUrlRequestInterceptionType/none</code> in the policy.
-/// \param response The response that was received from the URL request.
-///
-/// \param data The data that was received from the URL request.
-///
-/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
-///
-/// \param callback The callback that indicate the challenge’s result. The callback will be called once the user solved (or cancelled)  the challenge. You may use this to retry the URL request.
-///
-+ (BOOL)handleResponseWithResponse:(NSURLResponse * _Nonnull)response data:(NSData * _Nonnull)data forAppId:(NSString * _Nullable)appId callback:(void (^ _Nullable)(enum PerimeterXChallengeResult))callback SWIFT_WARN_UNUSED_RESULT;
++ (void)setPolicyWithPolicy:(PXPolicy * _Nonnull)policy forAppId:(NSString * _Nullable)appId completion:(void (^ _Nullable)(void))completion;
 /// Set custom parameters for given AppID.
-/// You must call the <code>start(appId:delegate:policy:)</code> function before calling this function, otherwise it will throw an error.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
 /// \param parameters Custom parameters. Each key must be in the following format: “custom_param[x]” where [x] is a number between 1-10.
 ///
 /// \param appId The AppID to associate the custom parameters with. Ignore this param if you use only one AppID.
 ///
-+ (BOOL)setCustomParametersWithParameters:(NSDictionary<NSString *, NSString *> * _Nonnull)parameters forAppId:(NSString * _Nullable)appId error:(NSError * _Nullable * _Nullable)error;
-/// Returns <code>true</code> if the error is <code>PerimeterXErrorCode/requestWasBlocked</code> error.
-/// This kind error should returned when the <code>PXPolicyUrlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>.
+/// \param completion A completion block. Called after custom parameters were set.
+///
++ (void)setCustomParametersWithParameters:(NSDictionary<NSString *, NSString *> * _Nonnull)parameters forAppId:(NSString * _Nullable)appId completion:(void (^ _Nullable)(void))completion;
+/// Get the VID for given AppID.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
++ (NSString * _Nullable)vidForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
+/// Register a callback that will be called after a request was blocked.
+/// Returns the registration ID. Use it to unregister with <code>unregisterCallbackForRequestBlockedEvent(forAppId:registrationId:)</code> function.
+/// This function returns nil on failure.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param callback The callback to register.
+///
++ (NSString * _Nullable)registerCallbackForRequestBlockedEventForAppId:(NSString * _Nullable)appId callback:(void (^ _Nonnull)(void))callback SWIFT_WARN_UNUSED_RESULT;
+/// Unregister the callback for request blocked that is associated with the given registration ID.
+/// Registration ID is provided from the <code>registerCallbackForRequestBlockedEvent(forAppId:callback:)</code> function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param registrationId The registration ID.
+///
++ (void)unregisterCallbackForRequestBlockedEventForAppId:(NSString * _Nullable)appId registrationId:(NSString * _Nonnull)registrationId;
+/// Register a callback that will be called after the user solved the challenge.
+/// Returns the registration ID. Use it to unregister with <code>unregisterCallbackForChallengeSolvedEvent(forAppId:registrationId:)</code> function.
+/// This function returns nil on failure.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param callback The callback to register.
+///
++ (NSString * _Nullable)registerCallbackForChallengeSolvedEventForAppId:(NSString * _Nullable)appId callback:(void (^ _Nonnull)(void))callback SWIFT_WARN_UNUSED_RESULT;
+/// Unregister the callback for challenge solved that is associated with the given registration ID.
+/// Registration ID is provided from the <code>registerCallbackForChallengeSolvedEvent(forAppId:callback:)</code> function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param registrationId The registration ID.
+///
++ (void)unregisterCallbackForChallengeSolvedEventForAppId:(NSString * _Nullable)appId registrationId:(NSString * _Nonnull)registrationId;
+/// Register a callback that will be called after the user cancelled the challenge.
+/// Returns the registration ID. Use it to unregister with <code>unregisterCallbackForChallengeCancelledEvent(forAppId:registrationId:)</code> function.
+/// This function returns nil on failure.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param callback The callback to register.
+///
++ (NSString * _Nullable)registerCallbackForChallengeCancelledEventForAppId:(NSString * _Nullable)appId callback:(void (^ _Nonnull)(void))callback SWIFT_WARN_UNUSED_RESULT;
+/// Unregister the callback for challenge cancelled that is associated with the given registration ID.
+/// Registration ID is provided from the <code>registerCallbackForRequestCancelledEvent(forAppId:callback:)</code> function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param registrationId The registration ID.
+///
++ (void)unregisterCallbackForChallengeCancelledEventForAppId:(NSString * _Nullable)appId registrationId:(NSString * _Nonnull)registrationId;
+/// Returns HTTP headers that should be added to the URL request.
+/// This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
++ (NSDictionary<NSString *, NSString *> * _Nonnull)headersForURLRequestForAppId:(NSString * _Nullable)appId SWIFT_WARN_UNUSED_RESULT;
+/// This function checks if the SDK can handle the URL request’s response and presents the block screen.
+/// Returns true if the PerimeterX’s payload in the response can be handled by the SDK. This function does not present the block screen. This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param data The data that was received from the URL request.
+///
+/// \param response The response that was received from the URL request.
+///
++ (BOOL)canHandleResponseForAppId:(NSString * _Nullable)appId data:(NSData * _Nonnull)data response:(NSURLResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
+/// This function handles the URL request’s response and presents the block screen, if necessary.
+/// Returns true if the PerimeterX’s payload in the response was handled by the SDK. This function should be used only when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to false in the policy.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
+/// \param appId The AppID of your account. Ignore this param if you use only one AppID.
+///
+/// \param data The data that was received from the URL request.
+///
+/// \param response The response that was received from the URL request.
+///
++ (BOOL)handleResponseForAppId:(NSString * _Nullable)appId data:(NSData * _Nonnull)data response:(NSURLResponse * _Nonnull)response SWIFT_WARN_UNUSED_RESULT;
+/// Returns true if the error is <code>PerimeterXErrorCode/requestWasBlocked</code> error.
+/// This kind error should returned when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to true.
 /// \param error The error to check
 ///
 + (BOOL)isRequestBlockedErrorWithError:(NSError * _Nonnull)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns <code>true</code> if the error is <code>PerimeterXErrorCode/challengeSolved</code> error.
-/// This kind error should returned when the <code>PXPolicyUrlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>.
+/// Returns true if the error is <code>PerimeterXErrorCode/challengeSolved</code> error.
+/// This kind error should returned when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to true.
 /// \param error The error to check
 ///
 + (BOOL)isChallengeSolvedErrorWithError:(NSError * _Nonnull)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns <code>true</code> if the error is <code>PerimeterXErrorCode/challengeCancelled</code> error.
-/// This kind error should returned when the <code>PXPolicyUrlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>.
+/// Returns true if the error is <code>PerimeterXErrorCode/challengeCancelled</code> error.
+/// This kind error should returned when the <code>PXPolicy/requestsInterceptedAutomaticallyEnabled</code> is set to true.
 /// \param error The error to check
 ///
 + (BOOL)isChallengeCancelledErrorWithError:(NSError * _Nonnull)error SWIFT_WARN_UNUSED_RESULT;
-/// Calling this method with non-<code>null</code> <code>userId</code> will start the Account Defender feature.
-/// You must call the <code>start(appId:delegate:policy:)</code> function before calling this function.
+/// Calling this method with non-null userId will start the Account Defender feature.
+/// You must call the <code>start(appId:delegate:enableDoctorCheck:completion:)</code> function and wait until it’s done before calling this function.
 /// \param userId The user ID. You may provide nil in case the user is not logged in anymore.
 ///
 /// \param appId The AppID of your account. Ignore this param if you use only one AppID.
 ///
-+ (BOOL)setUserIdWithUserId:(NSString * _Nullable)userId forAppId:(NSString * _Nullable)appId error:(NSError * _Nullable * _Nullable)error;
++ (void)setUserIdWithUserId:(NSString * _Nullable)userId forAppId:(NSString * _Nullable)appId;
 /// Provide outgoing URL request to the Account Defender feature.
-/// You must call the <code>setUserId(userId:forAppId:)</code> function before calling this function. If the <code>PXPolicyUrlRequestInterceptionType</code> is set to any value rather than <code>PXPolicyUrlRequestInterceptionType/none</code>, you should not need to use this function (it will be called automatically by the SDK).
+/// You must call the <code>setUserId(userId:forAppId:)</code> function before calling this function. If you are using the automatic interceptor you should not need to use this function (it will be called automatically by the interceptor).
 /// \param url The URL.
 ///
 /// \param appId The AppID of your account. Ignore this param if you use only one AppID.
 ///
-+ (BOOL)registerOutgoingUrlRequestWithUrl:(NSString * _Nonnull)url forAppId:(NSString * _Nullable)appId error:(NSError * _Nullable * _Nullable)error;
-/// Set additional data that support Account Defender for given AppID.
-/// You must call the <code>start(appId:delegate:policy:)</code> function before calling this function.
-/// \param parameters Custom parameters.
-///
-/// \param appId The AppID to associate the custom parameters with. Ignore this param if you use only one AppID.
-///
-+ (BOOL)setAdditionalDataWithParameters:(NSDictionary<NSString *, NSString *> * _Nonnull)parameters forAppId:(NSString * _Nullable)appId error:(NSError * _Nullable * _Nullable)error;
++ (void)registerOutgoingUrlRequestWithUrl:(NSString * _Nonnull)url forAppId:(NSString * _Nullable)appId;
 /// Returns the PerimeterX SDK version.
 + (NSString * _Nonnull)sdkVersion SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-/// Challenge result.
-typedef SWIFT_ENUM(NSInteger, PerimeterXChallengeResult, open) {
-/// Challenge was solved.
-  PerimeterXChallengeResultSolved = 0,
-/// Challenge was cancelled.
-  PerimeterXChallengeResultCancelled = 1,
-};
-
-@class NSURL;
 
 /// PerimeterX protocol
 SWIFT_PROTOCOL("_TtP14PerimeterX_SDK18PerimeterXDelegate_")
 @protocol PerimeterXDelegate <NSObject>
-@optional
 /// Called when a request was blocked.
 /// \param appId The AppID that related to the event.
 ///
-/// \param url The request’s URL that was blocked. Will be <code>nil</code> when <code>PXPolicy/urlRequestInterceptionType</code> is set to <code>PXPolicyUrlRequestInterceptionType/none</code> in the policy.
-///
-- (void)perimeterxDidRequestBlockedWithUrl:(NSURL * _Nullable)url appId:(NSString * _Nonnull)appId;
+- (void)perimeterxDidRequestBlockedForAppId:(NSString * _Nonnull)appId;
 /// Called when the challenge was solved.
 /// \param appId The AppID that related to the event.
 ///
@@ -1070,48 +1071,7 @@ SWIFT_PROTOCOL("_TtP14PerimeterX_SDK18PerimeterXDelegate_")
 /// \param appId The AppID that related to the event.
 ///
 - (void)perimeterxDidChallengeCancelledForAppId:(NSString * _Nonnull)appId;
-/// Called when the challenge was render successfully.
-/// \param appId The AppID that related to the event.
-///
-- (void)perimeterxDidRenderChallengeForAppId:(NSString * _Nonnull)appId;
-/// Called when the challenge was failed to render.
-/// \param appId The AppID that related to the event.
-///
-- (void)perimeterxDidFailRenderChallengeForAppId:(NSString * _Nonnull)appId;
-/// Called when the HTTP headers were changed. You may store and use those headers instead of calling the <code>PerimeterX/headersForURLRequest(forAppId:)</code> function for every URL request.
-/// \param headers HTTP headers.
-///
-/// \param appId The AppID that related to the event.
-///
-- (void)perimeterxHeadersWereUpdatedWithHeaders:(NSDictionary<NSString *, NSString *> * _Nonnull)headers forAppId:(NSString * _Nonnull)appId;
 @end
-
-/// SDK’s error codes. This will be included in errors objects that generated by the SDK.
-typedef SWIFT_ENUM(NSInteger, PerimeterXErrorCode, open) {
-/// <code>PerimeterX/start(appId:delegate:policy:)</code> or <code>PerimeterX/start(appIds:delegate:policy:)</code> functions were called without any AppID.
-  PerimeterXErrorCodeMissingAppId = 0,
-/// <code>PerimeterX/start(appId:delegate:policy:)</code> or <code>PerimeterX/start(appIds:delegate:policy:)</code> functions were called with invalid AppID.
-  PerimeterXErrorCodeInvalidAppId = 1,
-/// <code>PerimeterX/start(appId:delegate:policy:)</code> or <code>PerimeterX/start(appIds:delegate:policy:)</code> functions were called not on the main thread.
-  PerimeterXErrorCodeStartNotCalledOnMainThread = 2,
-/// <code>PerimeterX/start(appId:delegate:policy:)</code> or <code>PerimeterX/start(appIds:delegate:policy:)</code> functions were called more than once.
-  PerimeterXErrorCodeStartCalledMoreThanOnce = 3,
-/// The SDK failed to generate token. Make sure the AppID is set correctly.
-  PerimeterXErrorCodeTokenWasNotGenerated = 4,
-/// The SDK failed to perform the operation. Make sure to call the <code>PerimeterX/start(appId:delegate:policy:)</code> function.
-  PerimeterXErrorCodeStartWasNotCalled = 5,
-/// Internal error in the SDK.
-  PerimeterXErrorCodeInternalError = 6,
-/// URL request was blocked by PerimeterX.
-  PerimeterXErrorCodeRequestWasBlocked = 7,
-/// Challenge was solved by the user.
-  PerimeterXErrorCodeChallengeSolved = 8,
-/// Challenge was cancelled.
-  PerimeterXErrorCodeChallengeCancelled = 9,
-/// Failed to read body from input stream of the request.
-  PerimeterXErrorCodeHttpBodyInputStreamReadFailed = 10,
-};
-
 
 
 
