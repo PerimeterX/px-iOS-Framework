@@ -561,6 +561,7 @@ typedef SWIFT_ENUM(NSInteger, PerimeterXErrorCode, open) {
 
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -1119,6 +1120,7 @@ typedef SWIFT_ENUM(NSInteger, PerimeterXErrorCode, open) {
 /// Failed to read body from input stream of the request.
   PerimeterXErrorCodeHttpBodyInputStreamReadFailed = 10,
 };
+
 
 
 
