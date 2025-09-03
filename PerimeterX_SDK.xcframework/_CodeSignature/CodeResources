@@ -18,11 +18,11 @@
 		</data>
 		<key>ios-arm64/PerimeterX_SDK.framework/Info.plist</key>
 		<data>
-		UtSyqrQeB5ufLq8LJhwQQ1NhPic=
+		Ao2S3TEgAKfEmVm7QdjWuGSzwYo=
 		</data>
 		<key>ios-arm64/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		6prgW5UMj36evg1IiCOJrXmQlVE=
+		sWQJCDE47OQL4HkPbOyDL6Sm60Y=
 		</data>
 		<key>ios-arm64/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>ios-arm64/PerimeterX_SDK.framework/PerimeterX_SDK</key>
 		<data>
-		jna1fYIwCKXy9M7NMcnEPhwFFWY=
+		mVvRsZCVFNiT44U21XrQ7tDyf18=
 		</data>
 		<key>ios-arm64/PerimeterX_SDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -158,11 +158,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/Info.plist</key>
 		<data>
-		KCM3qsIIVMGDU+ae11p4sot5I30=
+		02VXv9U73cgkflgfI0k4HTOLCZQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VbSMbXr1e9PuUymuIYCG7ZMuZYc=
+		MliIumLlGn9mcfOOcNWLIzOAEkA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VbSMbXr1e9PuUymuIYCG7ZMuZYc=
+		MliIumLlGn9mcfOOcNWLIzOAEkA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/PerimeterX_SDK</key>
 		<data>
-		YjPwVEiBNy/DeD03ynM1c5kSimw=
+		ljj9l4oLI3AZ47vfjxKkuwLL8p4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -302,7 +302,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		A2yk4jk8iRF/LB1a0A9uB+pmvjw=
+		nGbHJp3EBnZkkrq4kX60a+6cw3A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -344,22 +344,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UtSyqrQeB5ufLq8LJhwQQ1NhPic=
+			Ao2S3TEgAKfEmVm7QdjWuGSzwYo=
 			</data>
 			<key>hash2</key>
 			<data>
-			W9lRz+daZqyvsYepk3KZ7Ktj2M6WFRtnzgJGhfU/ZAQ=
+			Sz6pfTaR1iN67Ve/9xFgbujMZ6hOA0FKEMcHkoi3Wpo=
 			</data>
 		</dict>
 		<key>ios-arm64/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6prgW5UMj36evg1IiCOJrXmQlVE=
+			sWQJCDE47OQL4HkPbOyDL6Sm60Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			vtOMXY5+DB5h3U37kDwPo9c0mfTGY7xvLmKRXZELGIQ=
+			VB4F4uB6C6DuqcFe2V9Pgpa0k/9mM1QMAy6ZXKWc1Q0=
 			</data>
 		</dict>
 		<key>ios-arm64/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -663,11 +663,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jna1fYIwCKXy9M7NMcnEPhwFFWY=
+			mVvRsZCVFNiT44U21XrQ7tDyf18=
 			</data>
 			<key>hash2</key>
 			<data>
-			ISHkFuVTv/1DUnacti4k53mV5eiX3E+LPDsMb1j1/Qk=
+			QmlKMc6P07WQiQeKUahMRim5p3njJ6CTpU/sdcGy34I=
 			</data>
 		</dict>
 		<key>ios-arm64/PerimeterX_SDK.framework/PrivacyInfo.xcprivacy</key>
@@ -729,22 +729,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KCM3qsIIVMGDU+ae11p4sot5I30=
+			02VXv9U73cgkflgfI0k4HTOLCZQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			f1/VDJcTQ4AtMtQjNMan5nVu2ynHyE1LZuB8Ue+LxU0=
+			4Py/BCV5GVt7vm+nkRj9679HHib8CZbxG4SAPfe6Ut4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VbSMbXr1e9PuUymuIYCG7ZMuZYc=
+			MliIumLlGn9mcfOOcNWLIzOAEkA=
 			</data>
 			<key>hash2</key>
 			<data>
-			0PcIma0t7XoZcnraajoIyX0xPk0MTVIGGeZ5JVDnWf4=
+			hN5EzrgXLmd0uvER96v43j4bUiem6fFYwd4O24pcD78=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -784,11 +784,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VbSMbXr1e9PuUymuIYCG7ZMuZYc=
+			MliIumLlGn9mcfOOcNWLIzOAEkA=
 			</data>
 			<key>hash2</key>
 			<data>
-			0PcIma0t7XoZcnraajoIyX0xPk0MTVIGGeZ5JVDnWf4=
+			hN5EzrgXLmd0uvER96v43j4bUiem6fFYwd4O24pcD78=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/Modules/PerimeterX_SDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1092,11 +1092,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YjPwVEiBNy/DeD03ynM1c5kSimw=
+			ljj9l4oLI3AZ47vfjxKkuwLL8p4=
 			</data>
 			<key>hash2</key>
 			<data>
-			mAw7MvSZ+ChIyYBMSpu57659aoDcv9BYwUmhc8QyJtg=
+			7re5yY7HbHYTgLTYHKr4f0aEF99uVfPN0+brWqpXaXM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/PerimeterX_SDK.framework/PrivacyInfo.xcprivacy</key>
@@ -1125,11 +1125,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A2yk4jk8iRF/LB1a0A9uB+pmvjw=
+			nGbHJp3EBnZkkrq4kX60a+6cw3A=
 			</data>
 			<key>hash2</key>
 			<data>
-			HkgN2PHacs1CJazwlFkNx2d+ufhbxrFZLvnRKMtNu4o=
+			7cngY2KrcTnWl99wlVyLQ7kmH3lfR+SvsgauJruwgzY=
 			</data>
 		</dict>
 	</dict>

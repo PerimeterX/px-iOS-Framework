@@ -5335,8 +5335,22 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 435,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Reachability\/PXReachability.swift",
       "kind": "StringLiteral",
-      "offset": 427,
+      "offset": 486,
       "length": 16,
       "value": "\"PXReachability\""
     },
@@ -9342,7 +9356,7 @@
       "kind": "StringLiteral",
       "offset": 4998,
       "length": 7,
-      "value": "\"3.2.8\""
+      "value": "\"3.2.9\""
     },
     {
       "filePath": "\/Users\/orenyaar\/Developer\/workspace\/px-ios-mobile-sdk\/PerimeterX\/SDK\/Configuratiions\/PXSDKConfigurations.swift",
