@@ -9,5 +9,4 @@ framework module PerimeterX_SDK {
 
 module PerimeterX_SDK.Swift {
   header "PerimeterX_SDK-Swift.h"
-  requires objc
 }
